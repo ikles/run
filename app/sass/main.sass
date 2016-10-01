@@ -17,7 +17,7 @@ body
   color: black
   background: white
   font-family: Roboto
-  background: url("../img/bgbg.jpg") no-repeat top center
+  /*background: url("../img/bgbg.jpg") no-repeat top center*/
   height: 3819px
 
 ol, ul
@@ -257,6 +257,20 @@ ul
   height: 192px
   border-radius: 50%
   border: 4px solid #eff4f7
+  &:after    
+    overflow: hidden
+    width: 192px
+    height: 192px
+    border-radius: 50%
+    position: absolute
+    top: 0
+    left: 0
+    background-color: #000
+    opacity: 0.6
+    z-index: 10
+    content: ""   
+    display: none
+
   
 .text-mod.fest  
   overflow: hidden
@@ -287,6 +301,9 @@ ul
     &:hover
       .text-fest
         color: rgb(98, 103, 111)  
+      .img-fest
+        &:after
+          display: block
     
 
 .img-fest
@@ -393,6 +410,73 @@ ul
 .all-photos
   @extend .about-more
   margin-top: 89px
+
+.polog
+  ul    
+  li
+    float: left
+    margin-right: 20px
+    margin-bottom: 20px
+    font-size: 0
+    &:nth-child(2n)
+      margin-right: 0
+    a
+      width: 440px
+      height: 127px
+      display: block
+      padding: 20px 30px      
+      box-sizing: border-box
+      color: #FFF      
+      text-decoration: none       
+      background-repeat: no-repeat 
+      background-position: left 20px center
+      padding-left: 0
+    &:first-child
+      a
+        background-color: #2b83bc 
+        
+    &:nth-child(2)
+      a
+        background-color: #c94e75         
+    &:nth-child(3)
+      a
+        background-color: #f7b40e         
+    &:nth-child(4)
+      a
+        background-color: #f45e5b         
+    &:nth-child(5)
+      a
+        background-color: #9da1a6         
+    &:nth-child(6)
+      a
+        background-color: #8879aa         
+    &:nth-child(7)
+      a
+        background-color: #5b0e73        
+    &:nth-child(8)
+      a
+        background-color: #5abb49       
+  
+.head-polog
+  font-size: 18px
+  text-transform: uppercase
+  display: block
+  margin-bottom: 15px
+
+.text-polog
+  display: block
+  font-size: 14px
+  line-height: 1.2
+
+.img-polog
+  float: left
+  width: 120px
+  text-align: center
+  height: 100%
+  img
+    text-align: center
+
+
 
 /*input[type=submit]*/
 @import _media

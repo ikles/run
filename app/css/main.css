@@ -17,7 +17,7 @@ body {
   color: black;
   background: white;
   font-family: Roboto;
-  background: url("../img/bgbg.jpg") no-repeat top center;
+  /*background: url("../img/bgbg.jpg") no-repeat top center*/
   height: 3819px; }
 
 ol, ul {
@@ -261,6 +261,20 @@ ul {
   -webkit-border-radius: 50%;
           border-radius: 50%;
   border: 4px solid #eff4f7; }
+  .img-fest:after {
+    overflow: hidden;
+    width: 192px;
+    height: 192px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 10;
+    content: "";
+    display: none; }
 
 .text-mod.fest {
   overflow: hidden; }
@@ -286,6 +300,8 @@ ul {
     position: relative; }
     .text-mod.fest a:hover .text-fest {
       color: #62676f; }
+    .text-mod.fest a:hover .img-fest:after {
+      display: block; }
 
 .img-fest {
   position: absolute;
@@ -392,6 +408,61 @@ ul {
 
 .all-photos {
   margin-top: 89px; }
+
+.polog li {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 0; }
+  .polog li:nth-child(2n) {
+    margin-right: 0; }
+  .polog li a {
+    width: 440px;
+    height: 127px;
+    display: block;
+    padding: 20px 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #FFF;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left 20px center;
+    padding-left: 0; }
+  .polog li:first-child a {
+    background-color: #2b83bc; }
+  .polog li:nth-child(2) a {
+    background-color: #c94e75; }
+  .polog li:nth-child(3) a {
+    background-color: #f7b40e; }
+  .polog li:nth-child(4) a {
+    background-color: #f45e5b; }
+  .polog li:nth-child(5) a {
+    background-color: #9da1a6; }
+  .polog li:nth-child(6) a {
+    background-color: #8879aa; }
+  .polog li:nth-child(7) a {
+    background-color: #5b0e73; }
+  .polog li:nth-child(8) a {
+    background-color: #5abb49; }
+
+.head-polog {
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 15px; }
+
+.text-polog {
+  display: block;
+  font-size: 14px;
+  line-height: 1.2; }
+
+.img-polog {
+  float: left;
+  width: 120px;
+  text-align: center;
+  height: 100%; }
+  .img-polog img {
+    text-align: center; }
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/
