@@ -241,12 +241,15 @@ ul {
 
 .w900.fest h3 {
   padding-top: 70px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.85); }
+
+.main-content h3 {
   color: #62676f;
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  font-weight: normal; }
 
 .img-fest {
   display: block;
@@ -256,34 +259,87 @@ ul {
   -webkit-border-radius: 50%;
           border-radius: 50%;
   border: 4px solid #eff4f7; }
-  .img-fest:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    background-color: transparent;
-    height: 96px; }
 
-.text-mod.fest a {
-  display: block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 192px;
-  height: 290px;
-  position: relative;
-  z-index: 10; }
+.text-mod.fest {
+  overflow: hidden; }
+  .text-mod.fest li {
+    float: left;
+    margin-right: 35px; }
+    .text-mod.fest li:first-child .text-fest {
+      background-color: #F34C49; }
+    .text-mod.fest li:nth-child(2) .text-fest {
+      background-color: #cb366a; }
+    .text-mod.fest li:nth-child(3) .text-fest {
+      background-color: #f7b40e; }
+    .text-mod.fest li:nth-child(4) .text-fest {
+      background-color: #5abb49; }
+    .text-mod.fest li:last-child {
+      margin-right: 0; }
+  .text-mod.fest a {
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 198px;
+    height: 280px;
+    position: relative; }
+    .text-mod.fest a:hover .text-fest {
+      color: #62676f; }
+
+.img-fest {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%; }
+  .img-fest img {
+    width: 100%;
+    height: auto; }
 
 .text-fest {
   display: block;
   width: 100%;
-  background-color: #F34C49;
-  height: 150px;
-  position: relative;
-  z-index: 0;
-  margin-top: -10px; }
+  height: 175px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  padding-top: 103px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #FFF;
+  padding-bottom: 25px; }
+  .text-fest span {
+    font-size: 16px;
+    text-transform: none; }
+
+.about-home h3 {
+  margin-bottom: 44px;
+  text-align: center; }
+
+.img-about {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px; }
+
+.text-about {
+  color: #282828;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal; }
+  .text-about p {
+    margin-bottom: 10px; }
+    .text-about p:last-child {
+      margin-bottom: 0; }
+
+.about-more {
+  color: #4495d1;
+  font-size: 16px;
+  text-align: right;
+  float: right;
+  display: block; }
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/

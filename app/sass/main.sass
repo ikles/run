@@ -239,11 +239,14 @@ ul
   h3
     padding-top: 70px
     background-color: rgba(255,255,255,0.85) 
+.main-content  
+  h3    
     color: rgb(98, 103, 111)
     font-size: 40px
     text-align: center
     text-transform: uppercase
     margin-bottom: 80px
+    font-weight: normal
     
 .img-fest
   display: block
@@ -252,35 +255,92 @@ ul
   height: 192px
   border-radius: 50%
   border: 4px solid #eff4f7
-  &:after
-    content: "" 
-    display: block
-    position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    z-index: 10
-    background-color: transparent
-    height: 96px 
   
-.text-mod.fest
+.text-mod.fest  
+  overflow: hidden
+  li
+    float: left
+    margin-right: 35px
+    &:first-child
+      .text-fest
+        background-color: #F34C49
+    &:nth-child(2)
+      .text-fest
+        background-color: #cb366a
+    &:nth-child(3)
+      .text-fest
+        background-color: #f7b40e
+    &:nth-child(4)
+      .text-fest
+        background-color: #5abb49
+
+    &:last-child
+      margin-right: 0
   a
     display: block
     box-sizing: border-box
-    width: 192px
-    height: 290px
-    position: relative
-    z-index: 10
+    width: 198px
+    height: 280px
+    position: relative  
+    &:hover
+      .text-fest
+        color: rgb(98, 103, 111)  
     
+
+.img-fest
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 10
+  width: 100%
+  img
+    width: 100%
+    height: auto
 
 .text-fest
   display: block
-  width: 100%
-  background-color: #F34C49 
-  height: 150px
-  position: relative
-  z-index: 0
-  margin-top: -10px
+  width: 100%  
+  height: 175px
+  position: absolute
+  bottom: 0
+  left: 0
+  z-index: 1  
+  text-align: center
+  padding-top: 103px  
+  box-sizing: border-box
+  font-size: 23px
+  text-transform: uppercase
+  color: #FFF 
+  padding-bottom: 25px  
+  span
+    font-size: 16px
+    text-transform: none
+
+.about-home
+  h3
+    margin-bottom: 44px
+    text-align: center
+
+.img-about
+  float: left
+  margin-right: 20px
+  margin-bottom: 10px
+
+.text-about
+  color: rgb(40, 40, 40)
+  font-size: 18px
+  line-height: 1.2
+  font-weight: normal
+  p
+    margin-bottom: 10px
+    &:last-child
+      margin-bottom: 0
+.about-more    
+  color: rgb(68, 149, 209)
+  font-size: 16px
+  text-align: right
+  float: right
+  display: block
 
 /*input[type=submit]*/
 @import _media
