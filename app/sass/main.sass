@@ -424,49 +424,88 @@ ul
       width: 440px
       height: 127px
       display: block
-      padding: 20px 30px      
+      padding: 20px 0 20px 30px      
       box-sizing: border-box
       color: #FFF      
       text-decoration: none       
       background-repeat: no-repeat 
       background-position: left 20px center
-      padding-left: 0
+      padding-left: 0      
+      &:hover
+        .head-polog
+          background-color: #FFF                                   
     &:first-child
       a
-        background-color: #2b83bc 
+        background-color: #2b83bc        
+        &:hover
+          .head-polog
+            color: #2b83bc
         
     &:nth-child(2)
       a
         background-color: #c94e75         
+        &:hover
+          .head-polog
+            color: #c94e75         
     &:nth-child(3)
       a
         background-color: #f7b40e         
+        &:hover
+          .head-polog
+            color: #f7b40e 
     &:nth-child(4)
       a
-        background-color: #f45e5b         
+        background-color: #f45e5b        
+        &:hover
+          .head-polog
+            color: #f45e5b
+            
     &:nth-child(5)
       a
-        background-color: #9da1a6         
+        background-color: #9da1a6
+        .img-polog
+          margin-top: -20px 
+        &:hover
+          .head-polog
+            color: #9da1a6
+                    
     &:nth-child(6)
       a
-        background-color: #8879aa         
+        background-color: #8879aa
+        &:hover
+          .head-polog
+            color: #8879aa         
     &:nth-child(7)
       a
-        background-color: #5b0e73        
+        background-color: #5b0e73 
+        &:hover
+          .head-polog
+            color: #5b0e73 
+        .img-polog      
+          margin-top: 10px
     &:nth-child(8)
       a
         background-color: #5abb49       
+        &:hover
+          .head-polog
+            color: #5abb49       
   
 .head-polog
   font-size: 18px
   text-transform: uppercase
   display: block
-  margin-bottom: 15px
+  margin-bottom: 5px  
+  padding: 10px  
+  box-sizing: border-box
+  margin-top: -10px
 
 .text-polog
   display: block
   font-size: 14px
   line-height: 1.2
+  padding-left: 10px
+  box-sizing: border-box
+  padding-right: 20px
 
 .img-polog
   float: left
@@ -476,7 +515,18 @@ ul
   img
     text-align: center
 
+.txt-polog
+  float: left
+  display: block
+  width: 320px
 
+.polog
+  h3
+    width: 565px
+    display: block
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 35px
 
 /*input[type=submit]*/
 @import _media

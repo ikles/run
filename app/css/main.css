@@ -420,7 +420,7 @@ ul {
     width: 440px;
     height: 127px;
     display: block;
-    padding: 20px 30px;
+    padding: 20px 0 20px 30px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     color: #FFF;
@@ -428,33 +428,63 @@ ul {
     background-repeat: no-repeat;
     background-position: left 20px center;
     padding-left: 0; }
+    .polog li a:hover .head-polog {
+      background-color: #FFF; }
   .polog li:first-child a {
     background-color: #2b83bc; }
+    .polog li:first-child a:hover .head-polog {
+      color: #2b83bc; }
   .polog li:nth-child(2) a {
     background-color: #c94e75; }
+    .polog li:nth-child(2) a:hover .head-polog {
+      color: #c94e75; }
   .polog li:nth-child(3) a {
     background-color: #f7b40e; }
+    .polog li:nth-child(3) a:hover .head-polog {
+      color: #f7b40e; }
   .polog li:nth-child(4) a {
     background-color: #f45e5b; }
+    .polog li:nth-child(4) a:hover .head-polog {
+      color: #f45e5b; }
   .polog li:nth-child(5) a {
     background-color: #9da1a6; }
+    .polog li:nth-child(5) a .img-polog {
+      margin-top: -20px; }
+    .polog li:nth-child(5) a:hover .head-polog {
+      color: #9da1a6; }
   .polog li:nth-child(6) a {
     background-color: #8879aa; }
+    .polog li:nth-child(6) a:hover .head-polog {
+      color: #8879aa; }
   .polog li:nth-child(7) a {
     background-color: #5b0e73; }
+    .polog li:nth-child(7) a:hover .head-polog {
+      color: #5b0e73; }
+    .polog li:nth-child(7) a .img-polog {
+      margin-top: 10px; }
   .polog li:nth-child(8) a {
     background-color: #5abb49; }
+    .polog li:nth-child(8) a:hover .head-polog {
+      color: #5abb49; }
 
 .head-polog {
   font-size: 18px;
   text-transform: uppercase;
   display: block;
-  margin-bottom: 15px; }
+  margin-bottom: 5px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: -10px; }
 
 .text-polog {
   display: block;
   font-size: 14px;
-  line-height: 1.2; }
+  line-height: 1.2;
+  padding-left: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 20px; }
 
 .img-polog {
   float: left;
@@ -463,6 +493,18 @@ ul {
   height: 100%; }
   .img-polog img {
     text-align: center; }
+
+.txt-polog {
+  float: left;
+  display: block;
+  width: 320px; }
+
+.polog h3 {
+  width: 565px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px; }
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/
