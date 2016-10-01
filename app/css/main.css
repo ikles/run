@@ -16,7 +16,9 @@ body {
   line-height: 1;
   color: black;
   background: white;
-  font-family: Roboto; }
+  font-family: Roboto;
+  background: url("../img/bgbg.jpg") no-repeat top center;
+  height: 3819px; }
 
 ol, ul {
   list-style: none; }
@@ -121,7 +123,7 @@ ul {
   width: 692px;
   height: 150px;
   margin-top: 14px;
-  margin-bottom: 42px; }
+  margin-bottom: 35px; }
 
 .white-block {
   height: 197px;
@@ -315,9 +317,11 @@ ul {
     font-size: 16px;
     text-transform: none; }
 
-.about-home h3 {
-  margin-bottom: 44px;
-  text-align: center; }
+.about-home {
+  margin-bottom: 70px; }
+  .about-home h3 {
+    margin-bottom: 44px;
+    text-align: center; }
 
 .img-about {
   float: left;
@@ -334,12 +338,60 @@ ul {
     .text-about p:last-child {
       margin-bottom: 0; }
 
-.about-more {
+.about-more, .all-photos {
   color: #4495d1;
   font-size: 16px;
   text-align: right;
   float: right;
   display: block; }
+
+.best-photos {
+  background: url("../img/best-bg.jpg") no-repeat top center;
+  overflow: hidden;
+  margin-bottom: 75px; }
+  .best-photos h3 {
+    margin-bottom: 106px; }
+  .best-photos ul {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 15px;
+    display: block;
+    text-align: center; }
+    .best-photos ul li {
+      display: inline-block;
+      margin: 0 6px; }
+      .best-photos ul li a {
+        border: 5px solid #eff4f7;
+        overflow: hidden;
+        width: 261px;
+        height: 231px;
+        display: block;
+        font-size: 0; }
+        .best-photos ul li a img {
+          width: 100%;
+          height: auto; }
+  .best-photos .text-mod {
+    width: 900px;
+    margin: auto;
+    overflow: hidden; }
+    .best-photos .text-mod .arr {
+      margin: 0; }
+      .best-photos .text-mod .arr a {
+        width: 20px;
+        height: 232px;
+        border: none; }
+
+.arrr {
+  background: url("../img/arrr.png") no-repeat 0 0;
+  float: right; }
+
+.arrl {
+  background: url("../img/arrl.png") no-repeat 0 0;
+  float: left; }
+
+.all-photos {
+  margin-top: 89px; }
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/
