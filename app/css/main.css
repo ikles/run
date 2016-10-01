@@ -18,7 +18,7 @@ body {
   background: white;
   font-family: Roboto;
   /*background: url("../img/bgbg.jpg") no-repeat top center*/
-  height: 3819px; }
+  /*height: 3819px*/ }
 
 ol, ul {
   list-style: none; }
@@ -354,7 +354,7 @@ ul {
     .text-about p:last-child {
       margin-bottom: 0; }
 
-.about-more, .all-photos {
+.about-more, .all-photos, .all-nom, .more-reviews {
   color: #4495d1;
   font-size: 16px;
   text-align: right;
@@ -409,63 +409,66 @@ ul {
 .all-photos {
   margin-top: 89px; }
 
-.polog li {
-  float: left;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  font-size: 0; }
-  .polog li:nth-child(2n) {
-    margin-right: 0; }
-  .polog li a {
-    width: 440px;
-    height: 127px;
-    display: block;
-    padding: 20px 0 20px 30px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    color: #FFF;
-    text-decoration: none;
-    background-repeat: no-repeat;
-    background-position: left 20px center;
-    padding-left: 0; }
-    .polog li a:hover .head-polog {
-      background-color: #FFF; }
-  .polog li:first-child a {
-    background-color: #2b83bc; }
-    .polog li:first-child a:hover .head-polog {
-      color: #2b83bc; }
-  .polog li:nth-child(2) a {
-    background-color: #c94e75; }
-    .polog li:nth-child(2) a:hover .head-polog {
-      color: #c94e75; }
-  .polog li:nth-child(3) a {
-    background-color: #f7b40e; }
-    .polog li:nth-child(3) a:hover .head-polog {
-      color: #f7b40e; }
-  .polog li:nth-child(4) a {
-    background-color: #f45e5b; }
-    .polog li:nth-child(4) a:hover .head-polog {
-      color: #f45e5b; }
-  .polog li:nth-child(5) a {
-    background-color: #9da1a6; }
-    .polog li:nth-child(5) a .img-polog {
-      margin-top: -20px; }
-    .polog li:nth-child(5) a:hover .head-polog {
-      color: #9da1a6; }
-  .polog li:nth-child(6) a {
-    background-color: #8879aa; }
-    .polog li:nth-child(6) a:hover .head-polog {
-      color: #8879aa; }
-  .polog li:nth-child(7) a {
-    background-color: #5b0e73; }
-    .polog li:nth-child(7) a:hover .head-polog {
-      color: #5b0e73; }
-    .polog li:nth-child(7) a .img-polog {
-      margin-top: 10px; }
-  .polog li:nth-child(8) a {
-    background-color: #5abb49; }
-    .polog li:nth-child(8) a:hover .head-polog {
-      color: #5abb49; }
+.polog {
+  margin-bottom: 60px;
+  overflow: hidden; }
+  .polog li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 0; }
+    .polog li:nth-child(2n) {
+      margin-right: 0; }
+    .polog li a {
+      width: 440px;
+      height: 127px;
+      display: block;
+      padding: 20px 0 20px 30px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      color: #FFF;
+      text-decoration: none;
+      background-repeat: no-repeat;
+      background-position: left 20px center;
+      padding-left: 0; }
+      .polog li a:hover .head-polog {
+        background-color: #FFF; }
+    .polog li:first-child a {
+      background-color: #2b83bc; }
+      .polog li:first-child a:hover .head-polog {
+        color: #2b83bc; }
+    .polog li:nth-child(2) a {
+      background-color: #c94e75; }
+      .polog li:nth-child(2) a:hover .head-polog {
+        color: #c94e75; }
+    .polog li:nth-child(3) a {
+      background-color: #f7b40e; }
+      .polog li:nth-child(3) a:hover .head-polog {
+        color: #f7b40e; }
+    .polog li:nth-child(4) a {
+      background-color: #f45e5b; }
+      .polog li:nth-child(4) a:hover .head-polog {
+        color: #f45e5b; }
+    .polog li:nth-child(5) a {
+      background-color: #9da1a6; }
+      .polog li:nth-child(5) a .img-polog {
+        margin-top: -20px; }
+      .polog li:nth-child(5) a:hover .head-polog {
+        color: #9da1a6; }
+    .polog li:nth-child(6) a {
+      background-color: #8879aa; }
+      .polog li:nth-child(6) a:hover .head-polog {
+        color: #8879aa; }
+    .polog li:nth-child(7) a {
+      background-color: #5b0e73; }
+      .polog li:nth-child(7) a:hover .head-polog {
+        color: #5b0e73; }
+      .polog li:nth-child(7) a .img-polog {
+        margin-top: 10px; }
+    .polog li:nth-child(8) a {
+      background-color: #5abb49; }
+      .polog li:nth-child(8) a:hover .head-polog {
+        color: #5abb49; }
 
 .head-polog {
   font-size: 18px;
@@ -505,6 +508,53 @@ ul {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px; }
+
+.img-date-reviews {
+  float: left;
+  text-align: center; }
+
+.reviews h3 {
+  margin-bottom: 40px; }
+
+.reviews li {
+  overflow: hidden;
+  width: 100%;
+  padding: 23px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .reviews li:first-child {
+    background-color: #F5F5F5; }
+
+.img-reviews {
+  display: block;
+  width: 68px;
+  height: 68px;
+  background-color: #FFF;
+  text-align: center;
+  font-size: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #ecebeb;
+  margin: auto; }
+  .img-reviews img {
+    text-align: center;
+    border: 5px solid #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+.text-reviews {
+  float: left;
+  width: 735px;
+  margin-left: 30px;
+  height: 4px; }
+  .text-reviews h4 {
+    font-size: 18px; }
+
+.date-reviews {
+  margin-top: 6px;
+  font-size: 12px;
+  display: block;
+  text-align: center; }
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/
