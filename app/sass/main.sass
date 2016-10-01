@@ -231,10 +231,56 @@ ul
         color: #FFF 
         background-color: rgb(203, 54, 106)
 
+.festivals
+  background: url("../img/bg-fest.png") no-repeat top 143px center
+  padding-bottom: 135px
+
+.w900.fest  
+  h3
+    padding-top: 70px
+    background-color: rgba(255,255,255,0.85) 
+    color: rgb(98, 103, 111)
+    font-size: 40px
+    text-align: center
+    text-transform: uppercase
+    margin-bottom: 80px
+    
+.img-fest
+  display: block
+  overflow: hidden
+  width: 192px
+  height: 192px
+  border-radius: 50%
+  border: 4px solid #eff4f7
+  &:after
+    content: "" 
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 10
+    background-color: transparent
+    height: 96px 
+  
+.text-mod.fest
+  a
+    display: block
+    box-sizing: border-box
+    width: 192px
+    height: 290px
+    position: relative
+    z-index: 10
+    
+
+.text-fest
+  display: block
+  width: 100%
+  background-color: #F34C49 
+  height: 150px
+  position: relative
+  z-index: 0
+  margin-top: -10px
 
 /*input[type=submit]*/
-
-
-
-
 @import _media
