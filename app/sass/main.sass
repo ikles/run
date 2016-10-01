@@ -16,7 +16,7 @@ body
   line-height: 1
   color: black
   background: white
-  font-family: Helvetica
+  font-family: Roboto
 
 ol, ul
   list-style: none
@@ -84,7 +84,7 @@ ul
   padding: 0 55px   
   box-sizing: border-box
   color: white;
-  font-family: AvenirNextW1G;
+  font-family: Roboto;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -96,7 +96,7 @@ ul
 .top-phones 
   float: right
   color: white;
-  font-family: AvenirNextW1G;
+  font-family: Roboto;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 300;
@@ -142,73 +142,94 @@ ul
   li
     display: inline-block
     margin-right: 25px
+    border-bottom: 2px solid
+    width: 114px
+    padding-bottom: 15px
+    vertical-align: top
     &:last-child
       margin-right: 0
     a
       width: 114px
-      height: 97px
-      display: block
-      text-align: center
+      height: 100px
+      display: flex;
+      align-items: center      
       padding-top: 60px
       background-repeat: no-repeat
       background-position: top 10px center 
-      font-family: RobotoM
+      font-family: Roboto
+      font-weight: 700 
       font-size: 14px      
-      line-height: 14px
+      line-height: 1.1
       text-transform: uppercase
-      text-decoration: none
-.graf
-  a
-    background-image: url("../img/graf.png") 
-    color: #2b83bc    
-    &:hover
-      background-image: url("../img/graf-h.png") 
-      color: #FFF 
-      background-color: #2b83bc
+      text-decoration: none        
+      span
+        text-align: center
+        display: block
+        width: 100%
+    > span
+        color: rgb(98, 103, 111)
+        font-size: 12px
+        line-height: 1.2
+        margin-top: 10px
+        display: block
+  .graf
+    border-color: #2b83bc
+    a
+      background-image: url("../img/graf.png") 
+      color: #2b83bc        
+      &:hover
+        background-image: url("../img/graf-h.png") 
+        color: #FFF 
+        background-color: #2b83bc      
 
-.zayav
-  a
-    background-image: url("../img/zayav.png") 
-    color: rgb(90, 187, 73)    
-    &:hover
-      background-image: url("../img/zayav-h.png") 
-      color: #FFF 
-      background-color: rgb(90, 187, 73) 
-.zaoch
-  a
-    background-image: url("../img/zaoch.png") 
-    color: #d48625
-    &:hover
-      background-image: url("../img/zaoch-h.png") 
-      color: #FFF 
-      background-color: #d48625
+  .zayav
+    border-color: rgb(90, 187, 73)
+    a
+      background-image: url("../img/zayav.png") 
+      color: rgb(90, 187, 73)     
+      &:hover
+        background-image: url("../img/zayav-h.png") 
+        color: #FFF 
+        background-color: rgb(90, 187, 73)       
+  .zaoch
+    border-color: #d48625
+    a
+      background-image: url("../img/zaoch.png") 
+      color: #d48625
+      &:hover
+        background-image: url("../img/zaoch-h.png") 
+        color: #FFF 
+        background-color: #d48625
 
-.olimp
-  a
-    background-image: url("../img/olimp.png") 
-    color: rgb(243, 77, 74)
-    &:hover
-      background-image: url("../img/olimp-h.png") 
-      color: #FFF 
-      background-color: rgb(243, 77, 74)
+  .olimp
+    border-color: rgb(243, 77, 74)
+    a
+      background-image: url("../img/olimp.png") 
+      color: rgb(243, 77, 74)
+      &:hover
+        background-image: url("../img/olimp-h.png") 
+        color: #FFF 
+        background-color: rgb(243, 77, 74)
 
-.onas
-  a
-    background-image: url("../img/onas.png") 
-    color: rgb(98, 103, 111)
-    &:hover
-      background-image: url("../img/onas-h.png") 
-      color: #FFF 
-      background-color: rgb(98, 103, 111)
+  .onas
+    border-color: rgb(98, 103, 111)
+    a
+      background-image: url("../img/onas.png") 
+      color: rgb(98, 103, 111)
+      &:hover
+        background-image: url("../img/onas-h.png") 
+        color: #FFF 
+        background-color: rgb(98, 103, 111)
 
-.gal
-  a
-    background-image: url("../img/gal.png") 
-    color: rgb(203, 54, 106)
-    &:hover
-      background-image: url("../img/gal-h.png") 
-      color: #FFF 
-      background-color: rgb(203, 54, 106)
+  .gal
+    border-color: rgb(203, 54, 106)
+    a
+      background-image: url("../img/gal.png") 
+      color: rgb(203, 54, 106)
+      &:hover
+        background-image: url("../img/gal-h.png") 
+        color: #FFF 
+        background-color: rgb(203, 54, 106)
 
 
 /*input[type=submit]*/
