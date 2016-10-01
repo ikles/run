@@ -154,7 +154,7 @@ ul {
       margin-right: 0; }
     .top-mnu li a {
       width: 114px;
-      height: 100px;
+      height: 47px;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -263,11 +263,13 @@ ul {
   border: 4px solid #eff4f7; }
   .img-fest:after {
     overflow: hidden;
-    width: 192px;
-    height: 192px;
+    width: 200px;
+    height: 200px;
     -webkit-border-radius: 50%;
             border-radius: 50%;
     position: absolute;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     top: 0;
     left: 0;
     background-color: #000;
@@ -280,7 +282,7 @@ ul {
   overflow: hidden; }
   .text-mod.fest li {
     float: left;
-    margin-right: 35px; }
+    margin-right: 34px; }
     .text-mod.fest li:first-child .text-fest {
       background-color: #F34C49; }
     .text-mod.fest li:nth-child(2) .text-fest {
@@ -383,7 +385,9 @@ ul {
         width: 261px;
         height: 231px;
         display: block;
-        font-size: 0; }
+        font-size: 0;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
         .best-photos ul li a img {
           width: 100%;
           height: auto; }
@@ -619,10 +623,12 @@ ul {
   .bot-mnnu li {
     font-size: 18px;
     display: inline-block;
-    padding: 0 10px; }
+    padding: 0 5px; }
+    .bot-mnnu li:last-child:after {
+      display: none; }
     .bot-mnnu li:after {
       content: "|";
-      padding-left: 20px;
+      padding-left: 10px;
       color: #72c8ff; }
     .bot-mnnu li a {
       color: #fff;
@@ -631,6 +637,72 @@ ul {
         color: #72c8ff; }
   .bot-mnnu .active a {
     color: #72c8ff; }
+
+.footer {
+  width: 100%;
+  background-color: #FFF;
+  overflow: hidden; }
+  .footer .w900 {
+    padding: 50px 20px 33px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow: hidden; }
+
+.slogan-phones-mail-footer > div {
+  float: left; }
+
+.slogan-footer {
+  color: #1d1d1d; }
+  .slogan-footer p {
+    font-size: 16px; }
+    .slogan-footer p span {
+      font-size: 18px;
+      display: block;
+      margin-bottom: 10px;
+      text-transform: uppercase; }
+
+.phones-footer {
+  color: #1d1d1d;
+  font-size: 16px;
+  padding-left: 48px;
+  margin-left: 35px;
+  min-height: 50px;
+  background: url("../img/top-phone-icon.png") no-repeat left center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.mail-footer {
+  padding-left: 50px;
+  background: url("../img/footer-mail-icon.png") no-repeat left center;
+  min-height: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 10px;
+  float: right !important; }
+
+.copy {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 55px;
+  color: #282828;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 22px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .copy p {
+    text-align: center; }
+  .copy .counter {
+    position: absolute;
+    right: 20px;
+    bottom: 0; }
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/

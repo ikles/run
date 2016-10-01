@@ -152,7 +152,7 @@ ul
       margin-right: 0
     a
       width: 114px
-      height: 100px
+      height: 47px
       display: flex;
       align-items: center      
       padding-top: 60px
@@ -259,10 +259,11 @@ ul
   border: 4px solid #eff4f7
   &:after    
     overflow: hidden
-    width: 192px
-    height: 192px
+    width: 200px
+    height: 200px
     border-radius: 50%
-    position: absolute
+    position: absolute    
+    box-sizing: border-box
     top: 0
     left: 0
     background-color: #000
@@ -276,7 +277,7 @@ ul
   overflow: hidden
   li
     float: left
-    margin-right: 35px
+    margin-right: 34px
     &:first-child
       .text-fest
         background-color: #F34C49
@@ -383,7 +384,8 @@ ul
         width: 261px
         height: 231px
         display: block        
-        font-size: 0
+        font-size: 0        
+        box-sizing: border-box
         img
           width: 100%
           height: auto
@@ -393,12 +395,12 @@ ul
     overflow: hidden
 
     .arr
-      margin: 0
+      margin: 0      
       a
         width: 20px
         height: 232px
-        border: none        
-
+        border: none  
+        
 .arrr
   background: url("../img/arrr.png") no-repeat 0 0
   float: right
@@ -635,10 +637,12 @@ ul
   li
     font-size: 18px
     display: inline-block
-    padding: 0 10px
+    padding: 0 5px
+    &:last-child:after
+      display: none    
     &:after
       content: "|" 
-      padding-left: 20px
+      padding-left: 10px
       color: rgb(114, 200, 255)
     a      
       color: #fff 
@@ -649,10 +653,63 @@ ul
     a
       color: rgb(114, 200, 255)
       
+.footer
+  width: 100%
+  background-color: #FFF 
+  overflow: hidden
+  .w900
+    padding: 50px 20px 33px 20px
+    box-sizing: border-box
+    overflow: hidden
 
+.slogan-phones-mail-footer
+  > div
+    float: left
 
+.slogan-footer
+  color: rgb(29, 29, 29)
+  p
+    font-size: 16px
+    span  
+      font-size: 18px
+      display: block
+      margin-bottom: 10px
+      text-transform: uppercase
 
+.phones-footer
+  color: rgb(29, 29, 29)
+  font-size: 16px
+  padding-left: 48px
+  margin-left: 35px
+  min-height: 50px 
+  background: url("../img/top-phone-icon.png") no-repeat left center
+  display: flex  
+  align-items: center
 
+.mail-footer 
+  padding-left: 50px
+  background: url("../img/footer-mail-icon.png") no-repeat left center
+  min-height: 50px 
+  box-sizing: border-box  
+  padding-top: 10px
+  float: right !important
+
+.copy
+  position: relative
+  width: 100%
+  overflow: hidden
+  height: 55px  
+  color: rgb(40, 40, 40)
+  font-size: 14px
+  text-align: center
+  padding-top: 22px  
+  box-sizing: border-box
+  p
+    text-align: center
+  .counter
+    position: absolute
+    right: 20px
+    bottom: 0
 
 
 
