@@ -509,21 +509,29 @@ ul {
   margin-right: auto;
   margin-bottom: 35px; }
 
+.more-reviews {
+  font-size: 16px;
+  text-transform: lowercase; }
+
 .img-date-reviews {
   float: left;
   text-align: center; }
 
-.reviews h3 {
-  margin-bottom: 40px; }
-
-.reviews li {
-  overflow: hidden;
-  width: 100%;
-  padding: 23px 25px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-  .reviews li:first-child {
-    background-color: #F5F5F5; }
+.reviews {
+  margin-bottom: 70px; }
+  .reviews h3 {
+    margin-bottom: 40px; }
+  .reviews li {
+    overflow: hidden;
+    width: 100%;
+    padding: 23px 25px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid transparent; }
+    .reviews li:hover {
+      border: 1px solid rgba(68, 149, 209, 0.35); }
+    .reviews li:nth-child(odd) {
+      background-color: #F5F5F5; }
 
 .img-reviews {
   display: block;
@@ -546,15 +554,83 @@ ul {
   float: left;
   width: 735px;
   margin-left: 30px;
-  height: 4px; }
+  height: 4px;
+  font-size: 14px; }
   .text-reviews h4 {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 10px; }
 
 .date-reviews {
   margin-top: 6px;
   font-size: 12px;
   display: block;
   text-align: center; }
+
+.support {
+  margin-bottom: 55px; }
+  .support h3 {
+    margin-bottom: 30px; }
+  .support .text-mod ul {
+    padding: 0 35px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    text-align: center; }
+    .support .text-mod ul li {
+      display: inline-block;
+      margin-right: 85px; }
+      .support .text-mod ul li:nth-last-child(2) {
+        margin-right: 0; }
+      .support .text-mod ul li a {
+        height: 99px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center; }
+        .support .text-mod ul li a img {
+          text-align: center;
+          margin: auto; }
+    .support .text-mod ul li.arr-r {
+      float: right;
+      width: 11px;
+      background: url("../img/arr-r.png") no-repeat left center;
+      margin: 0; }
+    .support .text-mod ul li.arr-l {
+      float: left;
+      width: 11px;
+      background: url("../img/arr-l.png") no-repeat left center;
+      margin: 0; }
+
+.bot-mnnu {
+  width: 100%;
+  background-color: #40518C;
+  height: 53px;
+  padding-top: 19px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .bot-mnnu ul {
+    display: block;
+    text-align: center; }
+  .bot-mnnu li {
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 10px; }
+    .bot-mnnu li:after {
+      content: "|";
+      padding-left: 20px;
+      color: #72c8ff; }
+    .bot-mnnu li a {
+      color: #fff;
+      text-decoration: none; }
+      .bot-mnnu li a:hover {
+        color: #72c8ff; }
+  .bot-mnnu .active a {
+    color: #72c8ff; }
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/
