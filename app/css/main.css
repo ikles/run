@@ -16,7 +16,7 @@ body {
   line-height: 1;
   color: black;
   background: white;
-  font-family: Oranienbaum; }
+  font-family: Helvetica; }
 
 ol, ul {
   list-style: none; }
@@ -46,20 +46,8 @@ ul {
   margin: 0; }
 
 @font-face {
-  font-family: Oranienbaum;
-  src: url(../fonts/oranienbaum.ttf); }
-
-@font-face {
-  font-family: UniSansHeavyCAPS;
-  src: url(../fonts/unicaps.otf); }
-
-@font-face {
-  font-family: PTSans;
-  src: url(../fonts/pt-sans.ttf); }
-
-@font-face {
-  font-family: "Myriad Pro";
-  src: url(../fonts/MyriadProRegular.ttf); }
+  font-family: RobotoM;
+  src: url(../fonts/roboto-m.ttf); }
 
 .wrapper {
   width: 100%;
@@ -145,12 +133,80 @@ ul {
   width: 100%; }
 
 .top-mnu {
-  background-color: #FFF;
-  opacity: 0.85;
+  background-color: rgba(255, 255, 255, 0.85);
   overflow: hidden;
   padding: 32px 23px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+  .top-mnu ul {
+    display: block;
+    text-align: center; }
+  .top-mnu li {
+    display: inline-block;
+    margin-right: 25px; }
+    .top-mnu li:last-child {
+      margin-right: 0; }
+    .top-mnu li a {
+      width: 114px;
+      height: 97px;
+      display: block;
+      text-align: center;
+      padding-top: 60px;
+      background-repeat: no-repeat;
+      background-position: top 10px center;
+      font-family: RobotoM;
+      font-size: 14px;
+      line-height: 14px;
+      text-transform: uppercase;
+      text-decoration: none; }
+
+.graf a {
+  background-image: url("../img/graf.png");
+  color: #2b83bc; }
+  .graf a:hover {
+    background-image: url("../img/graf-h.png");
+    color: #FFF;
+    background-color: #2b83bc; }
+
+.zayav a {
+  background-image: url("../img/zayav.png");
+  color: #5abb49; }
+  .zayav a:hover {
+    background-image: url("../img/zayav-h.png");
+    color: #FFF;
+    background-color: #5abb49; }
+
+.zaoch a {
+  background-image: url("../img/zaoch.png");
+  color: #d48625; }
+  .zaoch a:hover {
+    background-image: url("../img/zaoch-h.png");
+    color: #FFF;
+    background-color: #d48625; }
+
+.olimp a {
+  background-image: url("../img/olimp.png");
+  color: #f34d4a; }
+  .olimp a:hover {
+    background-image: url("../img/olimp-h.png");
+    color: #FFF;
+    background-color: #f34d4a; }
+
+.onas a {
+  background-image: url("../img/onas.png");
+  color: #62676f; }
+  .onas a:hover {
+    background-image: url("../img/onas-h.png");
+    color: #FFF;
+    background-color: #62676f; }
+
+.gal a {
+  background-image: url("../img/gal.png");
+  color: #cb366a; }
+  .gal a:hover {
+    background-image: url("../img/gal-h.png");
+    color: #FFF;
+    background-color: #cb366a; }
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/
