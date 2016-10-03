@@ -30,6 +30,8 @@
 		<position>slogan-footer</position>
 		<position>phones-footer</position>
 		<position>mail-footer</position>
+		<position>bot-mnu</position>
+		<position>top-mnu</position>
 		</positions>
 	</files>
 </extension>

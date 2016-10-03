@@ -35,46 +35,7 @@ $app = JFactory::getApplication();
 			<a href="/" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/logo.png" alt=""></a>
 			<jdoc:include type="modules" name="white-block" style="mystyle" />				
 			<div class="main-content">						
-				<div class="top-mnu w900">
-					<div class="">
-						<ul>
-							<li class="graf">
-								<a href="#">
-									<span>График фестивалей</span>
-								</a>
-								<span>Небольшой 
-									вводный текст 
-									желательно на 
-									3 строки 7-8 слов</span>
-								</li>
-								<li class="zayav"><a href="#"><span>Заявка на участие</span></a><span>Небольшой 
-									вводный текст 
-									желательно на 
-									3 строки 7-8 слов</span>
-								</li>
-								<li class="zaoch"><a href="#"><span>Заочный конкурс</span></a><span>Небольшой 
-									вводный текст 
-									желательно на 
-									3 строки 7-8 слов</span>
-								</li>
-								<li class="olimp"><a href="#"><span>Олимпиада</span></a><span>Небольшой 
-									вводный текст 
-									желательно на 
-									3 строки 7-8 слов</span>
-								</li>
-								<li class="onas"><a href="#"><span>О нас</span></a><span>Небольшой 
-									вводный текст 
-									желательно на 
-									3 строки 7-8 слов</span>
-								</li>
-								<li class="gal"><a href="#"><span>Галерея</span></a><span>Небольшой 
-									вводный текст 
-									желательно на 
-									3 строки 7-8 слов</span>
-								</li>
-							</ul>
-						</div>
-					</div><!--top-mnu-->
+				<jdoc:include type="modules" name="top-mnu" style="mystyle" />
 					<div class="festivals">
 						<div class="w900 fest">
 							<h3>Фестивали в ближайшее время</h3>
@@ -279,17 +240,7 @@ $app = JFactory::getApplication();
 						</ul>
 					</div>
 				</div><!--support-->
-				<div class="bot-mnnu">
-					<ul>							
-						<li><a href="#">График фестивалей</a></li>
-						<li><a href="#">Заявка</a></li>
-						<li><a href="#">Заочный конкурс</a></li>
-						<li class="active"><a href="#">Олимпиада</a></li>
-						<li><a href="#">О нас</a></li>
-						<li><a href="#">Галерея</a></li>
-						<li><a href="#">Контакты</a></li>
-					</ul>
-				</div><!--bot-mnnu-->
+				<jdoc:include type="modules" name="bot-mnu" style="mystyle" />				
 				<div class="footer">
 					<div class="w900">
 						<div class="slogan-phones-mail-footer">
