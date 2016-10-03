@@ -16,7 +16,7 @@ body {
   line-height: 1;
   color: black;
   background: white;
-  font-family: Roboto;
+  font-family: AvenirNextW1G;
   /*background: url("../img/bgbg.jpg") no-repeat top center*/
   /*height: 3819px*/ }
 
@@ -51,6 +51,30 @@ ul {
   font-family: Roboto;
   src: url(../fonts/roboto.ttf); }
 
+@font-face {
+  font-family: AvenirNextW1G;
+  src: url(../fonts/AvenirNextW1G-Regular_0.otf); }
+
+@font-face {
+  font-family: AvenirNextW1GM;
+  src: url(../fonts/AvenirNextW1G-Medium.otf); }
+
+@font-face {
+  font-family: AvenirNextW1GD;
+  src: url(../fonts/AvenirNextW1G-Demi.otf); }
+
+@font-face {
+  font-family: AvenirNextW1GB;
+  src: url(../fonts/AvenirNextW1G-Bold_0.otf); }
+
+@font-face {
+  font-family: AvenirNextW1GL;
+  src: url(../fonts/AvenirNextW1G-Light.otf); }
+
+@font-face {
+  font-family: AvenirNextW1GT;
+  src: url(../fonts/AvenirNextW1G-Thin.otf); }
+
 .wrapper {
   width: 100%;
   overflow: hidden; }
@@ -82,13 +106,12 @@ ul {
   border-left: 2px solid #72c8ff;
   border-right: 2px solid #72c8ff;
   float: left;
-  padding: 0 55px;
+  padding: 0 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
-  font-family: Roboto;
+  font-family: AvenirNextW1GM;
   font-size: 13px;
-  font-weight: 500;
   text-transform: uppercase;
   height: 19px;
   line-height: 1.5;
@@ -98,18 +121,17 @@ ul {
 .top-phones {
   float: right;
   color: white;
-  font-family: Roboto;
+  font-family: AvenirNextW1GD;
   text-transform: uppercase;
   font-size: 13px;
-  font-weight: 300;
   background: url("../img/top-phone-icon.png") no-repeat left center;
   padding-left: 45px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 32px; }
   .top-phones span {
-    font-size: 15px;
-    font-weight: 700; }
+    font-family: AvenirNextW1GB;
+    font-size: 15px; }
 
 .content {
   width: 100%;
@@ -166,8 +188,7 @@ ul {
       padding-top: 60px;
       background-repeat: no-repeat;
       background-position: top 10px center;
-      font-family: Roboto;
-      font-weight: 700;
+      font-family: AvenirNextW1GB;
       font-size: 14px;
       line-height: 1.1;
       text-transform: uppercase;
@@ -181,7 +202,8 @@ ul {
       font-size: 12px;
       line-height: 1.2;
       margin-top: 10px;
-      display: block; }
+      display: block;
+      font-family: AvenirNextW1GL; }
   .top-mnu .graf {
     border-color: #2b83bc; }
     .top-mnu .graf a {
@@ -246,6 +268,7 @@ ul {
   background-color: rgba(255, 255, 255, 0.85); }
 
 .main-content h3 {
+  font-family: AvenirNextW1G;
   color: #62676f;
   font-size: 40px;
   text-align: center;
@@ -316,6 +339,7 @@ ul {
     height: auto; }
 
 .text-fest {
+  font-family: AvenirNextW1GM;
   display: block;
   width: 100%;
   height: 175px;
@@ -333,7 +357,8 @@ ul {
   padding-bottom: 25px; }
   .text-fest span {
     font-size: 16px;
-    text-transform: none; }
+    text-transform: none;
+    font-family: AvenirNextW1G; }
 
 .about-home {
   margin-bottom: 70px; }
@@ -349,8 +374,9 @@ ul {
 .text-about {
   color: #282828;
   font-size: 18px;
-  line-height: 1.2;
-  font-weight: normal; }
+  line-height: 1.1;
+  font-weight: normal;
+  font-family: AvenirNextW1GL; }
   .text-about p {
     margin-bottom: 10px; }
     .text-about p:last-child {
@@ -361,7 +387,10 @@ ul {
   font-size: 16px;
   text-align: right;
   float: right;
-  display: block; }
+  display: block;
+  font-family: AvenirNextW1GL;
+  text-decoration: none;
+  text-transform: lowercase; }
 
 .best-photos {
   background: url("../img/best-bg.jpg") no-repeat top center;
@@ -482,7 +511,8 @@ ul {
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-top: -10px; }
+  margin-top: -10px;
+  font-family: AvenirNextW1GD; }
 
 .text-polog {
   display: block;
@@ -491,7 +521,8 @@ ul {
   padding-left: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-right: 20px; }
+  padding-right: 20px;
+  font-family: AvenirNextW1GL; }
 
 .img-polog {
   float: left;
@@ -512,6 +543,9 @@ ul {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px; }
+
+.all-nom {
+  text-transform: none; }
 
 .more-reviews {
   font-size: 16px;
@@ -559,16 +593,19 @@ ul {
   width: 735px;
   margin-left: 30px;
   height: 4px;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: AvenirNextW1GL; }
   .text-reviews h4 {
     font-size: 18px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-family: AvenirNextW1GL; }
 
 .date-reviews {
   margin-top: 6px;
   font-size: 12px;
   display: block;
-  text-align: center; }
+  text-align: center;
+  font-family: AvenirNextW1GL; }
 
 .support {
   margin-bottom: 55px; }
@@ -632,11 +669,14 @@ ul {
       color: #72c8ff; }
     .bot-mnnu li a {
       color: #fff;
-      text-decoration: none; }
+      text-decoration: none;
+      font-family: AvenirNextW1GL; }
       .bot-mnnu li a:hover {
-        color: #72c8ff; }
+        color: #72c8ff;
+        font-family: AvenirNextW1GL; }
   .bot-mnnu .active a {
-    color: #72c8ff; }
+    color: #72c8ff;
+    font-family: AvenirNextW1GL; }
 
 .footer {
   width: 100%;
@@ -654,18 +694,21 @@ ul {
 .slogan-footer {
   color: #1d1d1d; }
   .slogan-footer p {
-    font-size: 16px; }
+    font-size: 18px;
+    font-family: AvenirNextW1GL; }
     .slogan-footer p span {
-      font-size: 18px;
+      font-family: AvenirNextW1GD;
+      font-size: 20px;
       display: block;
       margin-bottom: 10px;
       text-transform: uppercase; }
 
 .phones-footer {
+  font-family: AvenirNextW1GL;
   color: #1d1d1d;
-  font-size: 16px;
-  padding-left: 48px;
-  margin-left: 35px;
+  font-size: 20px;
+  padding-left: 43px;
+  margin-left: 22px;
   min-height: 50px;
   background: url("../img/top-phone-icon.png") no-repeat left center;
   display: -webkit-box;
@@ -678,13 +721,19 @@ ul {
           align-items: center; }
 
 .mail-footer {
-  padding-left: 50px;
+  font-size: 20px;
+  padding-left: 40px;
   background: url("../img/footer-mail-icon.png") no-repeat left center;
   min-height: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 10px;
   float: right !important; }
+  .mail-footer a {
+    font-size: 20px;
+    font-family: AvenirNextW1GL;
+    color: #1d1d1d;
+    text-decoration: none; }
 
 .copy {
   position: relative;
