@@ -13,6 +13,7 @@ $item_heading = $params->get('item_heading', 'h4');
  if ($params->get('item_title')) : ?>
 
 <li>
+
 		<a href="<?php echo $item->link; ?>"><span>
 			<?php echo $item->title; ?>
 		</span>
@@ -28,7 +29,7 @@ $item_heading = $params->get('item_heading', 'h4');
 
 <?php echo $item->beforeDisplayContent; ?>
 
-<span><?php echo $item->introtext; ?></span></li>
+<div><span><?php echo $item->introtext; ?></span></div></li>
 
 <?php echo $item->afterDisplayContent; ?>
 

@@ -201,64 +201,71 @@ ul {
         text-align: center;
         display: block;
         width: 100%; }
-    .top-mnu li > span {
+      .top-mnu li div {
+        display: flex;      
+      -webkit-align-items: center;
+              align-items: center; 
+        height: 55px;}
+    .top-mnu li div > span {
       color: #62676f;
       font-size: 12px;
       line-height: 1.2;
-      margin-top: 10px;
+      margin-top: 10px;            
+      font-family: AvenirNextW1GL;
+      text-align: center;
       display: block;
-      font-family: AvenirNextW1GL; }
-  .top-mnu .graf {
+      width: 100%;}
+  .top-mnu li:first-child {
     border-color: #2b83bc; }
-    .top-mnu .graf a {
+    .top-mnu li:first-child a {
       background-image: url("../img/graf.png");
       color: #2b83bc; }
-      .top-mnu .graf a:hover {
+      .top-mnu li:first-child a:hover {
         background-image: url("../img/graf-h.png");
         color: #FFF;
         background-color: #2b83bc; }
-  .top-mnu .zayav {
+  .top-mnu li:nth-child(2) {
     border-color: #5abb49; }
-    .top-mnu .zayav a {
+    .top-mnu li:nth-child(2) a {
       background-image: url("../img/zayav.png");
       color: #5abb49; }
-      .top-mnu .zayav a:hover {
+      .top-mnu li:nth-child(2) a:hover {
         background-image: url("../img/zayav-h.png");
         color: #FFF;
         background-color: #5abb49; }
-  .top-mnu .zaoch {
+  .top-mnu li:nth-child(3) {
     border-color: #d48625; }
-    .top-mnu .zaoch a {
+    .top-mnu li:nth-child(3) a {
       background-image: url("../img/zaoch.png");
       color: #d48625; }
-      .top-mnu .zaoch a:hover {
+      .top-mnu li:nth-child(3) a:hover {
         background-image: url("../img/zaoch-h.png");
         color: #FFF;
         background-color: #d48625; }
-  .top-mnu .olimp {
+  .top-mnu li:nth-child(4) {
     border-color: #f34d4a; }
-    .top-mnu .olimp a {
+    .top-mnu li:nth-child(4) a {
       background-image: url("../img/olimp.png");
       color: #f34d4a; }
-      .top-mnu .olimp a:hover {
+      .top-mnu li:nth-child(4) a:hover {
         background-image: url("../img/olimp-h.png");
         color: #FFF;
         background-color: #f34d4a; }
-  .top-mnu .onas {
+  .top-mnu li:nth-child(5) {
     border-color: #62676f; }
-    .top-mnu .onas a {
+    .top-mnu li:nth-child(5) a {
       background-image: url("../img/onas.png");
       color: #62676f; }
-      .top-mnu .onas a:hover {
+      .top-mnu li:nth-child(5) a:hover {
         background-image: url("../img/onas-h.png");
         color: #FFF;
         background-color: #62676f; }
-  .top-mnu .gal {
+  .top-mnu li:nth-child(6) {
     border-color: #cb366a; }
-    .top-mnu .gal a {
+    .top-mnu li:nth-child(6) a {
       background-image: url("../img/gal.png");
       color: #cb366a; }
-      .top-mnu .gal a:hover {
+      .top-mnu li:nth-child(6) a:hover {
         background-image: url("../img/gal-h.png");
         color: #FFF;
         background-color: #cb366a; }
