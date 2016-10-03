@@ -128,6 +128,7 @@ ul {
   padding-left: 45px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 180px;
   height: 32px; }
   .top-phones span {
     font-family: AvenirNextW1GB;
@@ -149,9 +150,12 @@ ul {
 
 .white-block {
   height: 197px;
-  background-color: #FFF;
-  opacity: 0.4;
-  margin-bottom: 42px; }
+  background-color: rgba(255,255,255,0.4);
+  margin-bottom: 42px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box; }
 
 .main-content {
   width: 100%; }
@@ -651,7 +655,7 @@ ul {
   width: 100%;
   background-color: #40518C;
   height: 53px;
-  padding-top: 19px;
+  padding-top: 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
   .bot-mnnu ul {

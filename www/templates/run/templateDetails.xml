@@ -24,6 +24,12 @@
 		<position>top-social</position>
 		<position>top-slogan</position>
 		<position>top-phones</position>
+		<position>white-block</position>
+		<position>copy</position>
+		<position>counter</position>
+		<position>slogan-footer</position>
+		<position>phones-footer</position>
+		<position>mail-footer</position>
 		</positions>
 	</files>
 </extension>
