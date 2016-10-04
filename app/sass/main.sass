@@ -742,11 +742,48 @@ h1, h2, h3
 
 .left-right
   overflow: hidden
+  margin-bottom: 30px
 
 .left
   width: 198px
   float: left
   overflow: hidden
+
+.top-mnu.left-mnu
+  padding: 10px
+  li
+    margin: 0
+    width: 100%
+    padding: 0
+    margin: 0
+    margin-bottom: 10px
+    border-bottom: none !important     
+    &:nth-child(2)
+      a
+        background-position: left 11px center 
+    &:nth-child(3)
+      a
+        background-position: left 7px center 
+    &:nth-child(4)
+      a
+        background-position: left 10px center 
+    &:nth-child(5)
+      a
+        background-position: left 12px center 
+  a          
+    border-right: 2px solid   
+    background-size: auto 30px
+    width: 100%    
+    box-sizing: border-box
+    text-align: left    
+    margin: 0
+    background-position: left 10px center 
+    padding: 6px
+    padding-left: 60px
+    &:hover
+      border-color: inherit 
+    span
+      text-align: left
 
 .right
   background-color: rgba(255,255,255,0.8)   
@@ -878,13 +915,29 @@ h1, h2, h3
     tbody
       tr
         td
+          color: rgb(98, 103, 111)
+          font-family: AvenirNextW1GL
+          font-size: 14px
           padding: 15px 10px
+          a
+            color: rgb(98, 103, 111)
+            font-family: AvenirNextW1GM
+            text-decoration: underline 
+            &:hover
+              text-decoration: none
+              
         &:first-child
           td
             background-color: #fff            
         &:nth-child(2n)
             background-color: #eaf3f8
-
+        .bottom-td
+          height: 16px
+          padding: 0
+          background-color: #2B83BC 
+          font-family: AvenirNextW1GL
+          color: #FFF 
+          font-size: 11px
 
 
 /*end of inner page*/
