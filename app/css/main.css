@@ -208,7 +208,7 @@ h1, h2, h3 {
       display: block;
       font-family: AvenirNextW1GL; }
   .top-mnu .graf {
-    border-color: #2b83bc; }
+    border-color: #2b83bc !important; }
     .top-mnu .graf a {
       background-image: url("../img/graf.png");
       color: #2b83bc; }
@@ -217,7 +217,7 @@ h1, h2, h3 {
         color: #FFF;
         background-color: #2b83bc; }
   .top-mnu .zayav {
-    border-color: #5abb49; }
+    border-color: #5abb49 !important; }
     .top-mnu .zayav a {
       background-image: url("../img/zayav.png");
       color: #5abb49; }
@@ -226,7 +226,7 @@ h1, h2, h3 {
         color: #FFF;
         background-color: #5abb49; }
   .top-mnu .zaoch {
-    border-color: #d48625; }
+    border-color: #d48625 !important; }
     .top-mnu .zaoch a {
       background-image: url("../img/zaoch.png");
       color: #d48625; }
@@ -235,7 +235,7 @@ h1, h2, h3 {
         color: #FFF;
         background-color: #d48625; }
   .top-mnu .olimp {
-    border-color: #f34d4a; }
+    border-color: #f34d4a !important; }
     .top-mnu .olimp a {
       background-image: url("../img/olimp.png");
       color: #f34d4a; }
@@ -244,7 +244,7 @@ h1, h2, h3 {
         color: #FFF;
         background-color: #f34d4a; }
   .top-mnu .onas {
-    border-color: #62676f; }
+    border-color: #62676f !important; }
     .top-mnu .onas a {
       background-image: url("../img/onas.png");
       color: #62676f; }
@@ -253,7 +253,7 @@ h1, h2, h3 {
         color: #FFF;
         background-color: #62676f; }
   .top-mnu .gal {
-    border-color: #cb366a; }
+    border-color: #cb366a !important; }
     .top-mnu .gal a {
       background-image: url("../img/gal.png");
       color: #cb366a; }
@@ -767,14 +767,15 @@ h1, h2, h3 {
   overflow: hidden; }
 
 .top-mnu.left-mnu {
-  padding: 10px; }
+  padding: 12px; }
   .top-mnu.left-mnu li {
     margin: 0;
     width: 100%;
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
-    border-bottom: none !important; }
+    border-right: 2px solid;
+    border-bottom: none; }
     .top-mnu.left-mnu li ul {
       text-align: left; }
       .top-mnu.left-mnu li ul li {
@@ -787,7 +788,8 @@ h1, h2, h3 {
         margin-bottom: 5px;
         text-align: left;
         padding-left: 58px;
-        display: block; }
+        display: list-item;
+        border: none; }
       .top-mnu.left-mnu li ul a {
         text-align: left;
         font-size: 14px;
@@ -802,6 +804,10 @@ h1, h2, h3 {
           background: none;
           color: inherit;
           font-family: AvenirNextW1GD; }
+      .top-mnu.left-mnu li ul .active a {
+        background: none;
+        color: inherit;
+        font-family: AvenirNextW1GD; }
     .top-mnu.left-mnu li:nth-child(2) a {
       background-position: left 11px center; }
     .top-mnu.left-mnu li:nth-child(3) a {
@@ -811,7 +817,6 @@ h1, h2, h3 {
     .top-mnu.left-mnu li:nth-child(5) a {
       background-position: left 12px center; }
   .top-mnu.left-mnu a {
-    border-right: 2px solid;
     background-size: auto 30px;
     width: 100%;
     -webkit-box-sizing: border-box;
