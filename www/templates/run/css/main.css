@@ -409,7 +409,8 @@ ul {
 .best-photos {
   background: url("../img/best-bg.jpg") no-repeat top center;
   overflow: hidden;
-  margin-bottom: 75px; }
+  margin-bottom: 75px;
+  height: 510px; }
   .best-photos h3 {
     margin-bottom: 106px; }
   .best-photos ul {
@@ -436,6 +437,7 @@ ul {
           height: auto; }
   .best-photos .text-mod {
     width: 900px;
+    height: 240px;
     margin: auto;
     overflow: hidden; }
     .best-photos .text-mod .arr {
@@ -444,6 +446,10 @@ ul {
         width: 20px;
         height: 232px;
         border: none; }
+
+.best-photos2 .text-mod {
+  width: 800px;
+}
 
 .arrr {
   background: url("../img/arrr.png") no-repeat 0 0;

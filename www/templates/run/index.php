@@ -39,20 +39,12 @@ $app = JFactory::getApplication();
 				<div class="festivals">
 					<jdoc:include type="modules" name="festivals" style="mystyle" />
 				</div><!--festivals-->
-				<jdoc:include type="modules" name="about-home" style="mystyle" />
-			<jdoc:include type="modules" name="best-photos" style="mystyle" />
+				<jdoc:include type="modules" name="about-home" style="mystyle" />			
 			<div class="best-photos">
-				<h3>Лучшие фотографии</h3>
-				<div class="text-mod">
-					<ul>
-						<li class="arr arrl"><a href="#"></a></li>
-						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best1.jpg" alt=""></a></li>
-						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best2.jpg" alt=""></a></li>
-						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best3.jpg" alt=""></a></li>
-						<li class="arr arrr"><a href="#"></a></li>
-					</ul>
-					<a href="#" class="all-photos">Все фото»</a>
-				</div>
+<div style="width: 900px; margin: auto; height: 500px; display: block !important; overflow: hidden; ">
+				<jdoc:include type="modules" name="best-photos" style="mystyle" />
+</div>
+				
 			</div><!--best-photos-->
 			<div class="polog w900">
 				<h3>ПОЛОЖЕНИЯ И Номинации фестиваля-конкурса</h3>
