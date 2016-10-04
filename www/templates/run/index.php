@@ -20,6 +20,8 @@ $app = JFactory::getApplication();
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <!--script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-1.12.0.min.js"></script-->
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/owl.carousel.js"></script>
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/common.js"></script>
 </head>
 <body>
@@ -40,12 +42,30 @@ $app = JFactory::getApplication();
 					<jdoc:include type="modules" name="festivals" style="mystyle" />
 				</div><!--festivals-->
 				<jdoc:include type="modules" name="about-home" style="mystyle" />			
-			<div class="best-photos">
-<div style="width: 900px; margin: auto; height: 500px; display: block !important; overflow: hidden; ">
-				<jdoc:include type="modules" name="best-photos" style="mystyle" />
-</div>
-				
-			</div><!--best-photos-->
+				<h3>Nen</h3>
+				<div class="owl-carousel" style="width: 200px; margin: auto; ">
+				<a href="#">aa</a>
+					<a href="#">aa</a>
+					<a href="#">aa</a>
+					<a href="#">aa</a>
+					<a href="#">aa</a>
+					<a href="#">aa</a>
+				</div>
+				<!--jdoc:include type="modules" name="best-photos" style="mystyle" /-->
+			<!--div class="best-photos">
+				<h3>Лучшие фотографии</h3>
+				<div class="text-mod"-->
+
+					<!--ul>
+						<li class="arr arrl"><a href="#"></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best1.jpg" alt=""></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best2.jpg" alt=""></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best3.jpg" alt=""></a></li>
+						<li class="arr arrr"><a href="#"></a></li>
+					</ul-->
+					<!--a href="#" class="all-photos">Все фото»</a>
+				</div>
+			</div--><!--best-photos-->
 			<div class="polog w900">
 				<h3>ПОЛОЖЕНИЯ И Номинации фестиваля-конкурса</h3>
 				<div class="text-mod">

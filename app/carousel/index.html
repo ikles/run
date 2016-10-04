@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="owl.carousel.js"></script>
+<link rel="stylesheet" href="assets/owl.carousel.css">
+<body>
+	<script>
+		$(function() {
+			$('.owl-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				nav:true,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:3
+					},
+					1000:{
+						items:3
+					}
+				}
+			})
+		}); //ready
+	</script>
+	<div class="owl-carousel" style="width: 200px; margin: auto; ">
+		<a href="#">aa</a>
+		<a href="#">aa</a>
+		<a href="#">aa</a>
+		<a href="#">aa</a>
+		<a href="#">aa</a>
+		<a href="#">aa</a>
+	</div>
+</body>
+</html>
