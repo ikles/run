@@ -15,6 +15,7 @@ $item_heading = $params->get('item_heading', 'h4');
 <li>
 
 		<a href="<?php echo $item->link; ?>"><span>
+			
 			<?php echo $item->title; ?>
 		</span>
 		</a>

@@ -201,6 +201,10 @@ ul {
         text-align: center;
         display: block;
         width: 100%; }
+      .top-mnu li img {
+        display: none;
+      }
+      
       .top-mnu li div {
         display: flex;      
       -webkit-align-items: center;
@@ -548,7 +552,7 @@ ul {
   width: 320px; }
 
 .polog h3 {
-  width: 565px;
+  width: 605px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -762,6 +766,228 @@ ul {
     position: absolute;
     right: 20px;
     bottom: 0; }
+
+/*inner page*/
+.left-right {
+  overflow: hidden;
+  margin-bottom: 30px; }
+
+.left {
+  width: 198px;
+  float: left;
+  overflow: hidden; }
+
+.top-mnu.left-mnu {
+  padding: 12px; }
+  .top-mnu.left-mnu li {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    border-right: 2px solid;
+    border-bottom: none; }
+    .top-mnu.left-mnu li ul {
+      text-align: left; }
+      .top-mnu.left-mnu li ul li {
+        margin: 0;
+        color: #62676f;
+        font-size: 14px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        margin-bottom: 5px;
+        text-align: left;
+        padding-left: 0;
+        margin-left: 58px;
+        display: list-item;
+        border: none; }
+        .top-mnu.left-mnu li ul li:hover {
+          list-style: disc outside; }
+      .top-mnu.left-mnu li ul a {
+        text-align: left;
+        font-size: 14px;
+        display: inline;
+        background: none;
+        color: #62676f;
+        font-family: AvenirNextW1GL;
+        text-transform: none;
+        padding: 0;
+        border: none; }
+        .top-mnu.left-mnu li ul a:hover {
+          background: none;
+          color: inherit;
+          font-family: AvenirNextW1GD; }
+      .top-mnu.left-mnu li ul .active {
+        list-style: disc outside; }
+        .top-mnu.left-mnu li ul .active a {
+          background: none;
+          color: inherit;
+          font-family: AvenirNextW1GD; }
+    .top-mnu.left-mnu li:nth-child(2) a {
+      background-position: left 11px center; }
+    .top-mnu.left-mnu li:nth-child(3) a {
+      background-position: left 7px center; }
+    .top-mnu.left-mnu li:nth-child(4) a {
+      background-position: left 10px center; }
+    .top-mnu.left-mnu li:nth-child(5) a {
+      background-position: left 12px center; }
+  .top-mnu.left-mnu a {
+    background-size: auto 30px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: left;
+    margin: 0;
+    background-position: left 10px center;
+    padding: 6px;
+    padding-left: 60px; }
+    .top-mnu.left-mnu a:hover {
+      border-color: inherit; }
+    .top-mnu.left-mnu a span {
+      text-align: left; }
+
+.right {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 680px;
+  float: right;
+  overflow: hidden; }
+
+.component {
+  padding: 25px;
+  color: #282828;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: AvenirNextW1GL; }
+  .component p {
+    margin-bottom: 7px; }
+  .component h2 {
+    color: #62676f;
+    font-family: AvenirNextW1G;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px; }
+  .component a {
+    color: #4495d1;
+    text-decoration: underline; }
+
+.bread {
+  padding: 12px 15px 0 15px;
+  overflow: hidden; }
+  .bread li {
+    color: #62676f;
+    font-family: AvenirNextW1GL;
+    font-size: 14px;
+    float: left; }
+    .bread li:after {
+      content: "/";
+      margin-left: 5px;
+      margin-right: 5px; }
+    .bread li:last-child:after {
+      display: none; }
+    .bread li a {
+      color: #62676f;
+      font-family: AvenirNextW1GL;
+      font-size: 14px;
+      text-decoration: none; }
+    .bread li span {
+      color: #62676f;
+      font-family: AvenirNextW1GL;
+      font-size: 14px; }
+
+.nom {
+  overflow: hidden; }
+  .nom ul li {
+    float: left;
+    margin-bottom: 4px; }
+    .nom ul li a {
+      line-height: 1.8;
+      height: 27px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 307px;
+      display: block;
+      text-align: center;
+      font-family: AvenirNextW1GD;
+      color: #FFF;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: #9DA1A6; }
+    .nom ul li:first-child a:hover {
+      background-color: #2B83BC; }
+    .nom ul li:nth-child(2) a:hover {
+      background-color: #c94e75; }
+    .nom ul li:nth-child(3) a:hover {
+      background-color: #f7b40e; }
+    .nom ul li:nth-child(4) a:hover {
+      background-color: #f45e5b; }
+    .nom ul li:nth-child(5) a:hover {
+      background-color: #f45e5b; }
+    .nom ul li:nth-child(6) a:hover {
+      background-color: #f7b40e; }
+    .nom ul li:nth-child(7) a:hover {
+      background-color: #8879aa; }
+    .nom ul li:nth-child(8) a:hover {
+      background-color: #5b0e73; }
+    .nom ul li:nth-child(9) a:hover {
+      background-color: #5abb49; }
+    .nom ul li:nth-child(10) a:hover {
+      background-color: #2B83BC; }
+    .nom ul li:nth-child(2n) {
+      float: right; }
+
+.grafic h3 {
+  margin-bottom: 30px; }
+
+.grafic table {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #2B83BC;
+  border-collapse: collapse; }
+  .grafic table td {
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #B8C1C6; }
+  .grafic table tr {
+    border-collapse: collapse; }
+  .grafic table thead td {
+    padding: 24px 10px;
+    background-color: #2B83BC;
+    background: -webkit-gradient(linear, left bottom, left top, from(#4dabdd), to(#2B83BC));
+    background: -webkit-linear-gradient(bottom, #4dabdd, #2B83BC);
+    background: linear-gradient(to top, #4dabdd, #2B83BC);
+    color: white;
+    font-family: AvenirNextW1GM;
+    font-size: 14px;
+    text-transform: uppercase; }
+  .grafic table tbody tr td {
+    color: #62676f;
+    font-family: AvenirNextW1GL;
+    font-size: 14px;
+    padding: 15px 10px; }
+    .grafic table tbody tr td a {
+      color: #62676f;
+      font-family: AvenirNextW1GM;
+      text-decoration: underline; }
+      .grafic table tbody tr td a:hover {
+        text-decoration: none; }
+  .grafic table tbody tr:first-child td {
+    background-color: #fff; }
+  .grafic table tbody tr:nth-child(2n) {
+    background-color: #eaf3f8; }
+  .grafic table tbody tr .bottom-td {
+    height: 16px;
+    padding: 0;
+    background-color: #2B83BC;
+    font-family: AvenirNextW1GL;
+    color: #FFF;
+    font-size: 11px; }
+
+/*end of inner page*/
 
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/

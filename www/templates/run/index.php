@@ -35,8 +35,9 @@ $app = JFactory::getApplication();
 			<a href="/" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/logo.png" alt=""></a>
 			<jdoc:include type="modules" name="white-block" style="mystyle" />				
 			<div class="main-content">						
-				<jdoc:include type="modules" name="top-mnu" style="mystyle" />
+				<jdoc:include type="modules" name="top-mnu" style="mystyle" />			
 					<div class="festivals">
+					<jdoc:include type="modules" name="festivals" style="mystyle" />
 						<div class="w900 fest">
 							<h3>Фестивали в ближайшее время</h3>
 							<div class="text-mod fest">
