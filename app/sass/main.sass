@@ -51,10 +51,13 @@ ul
 
 @import _fonts
 
+
+h1, h2, h3
+  font-size: 40px
+
 .wrapper 
   width: 100%
   overflow: hidden
-
 
 .top 
   height: 53px
@@ -735,7 +738,86 @@ ul
     bottom: 0
 
 
+/*inner page*/
 
+.left-right
+  overflow: hidden
+
+.left
+  width: 198px
+  float: left
+  overflow: hidden
+
+.right
+  background-color: rgba(255,255,255,0.8)   
+  box-sizing: border-box
+  width: 680px
+  float: right
+  overflow: hidden
+
+.component
+  padding: 25px
+  color: rgb(40, 40, 40)
+  font-size: 16px
+  line-height: 1.2
+  font-family: AvenirNextW1GL
+  p
+    margin-bottom: 7px
+  h2
+    color: rgb(98, 103, 111)
+    font-family: AvenirNextW1G
+    font-size: 40px
+    font-weight: 400    
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 20px
+  a
+    color: rgb(68, 149, 209)
+    text-decoration: underline
+
+.bread
+  padding: 12px 15px 0 15px
+  overflow: hidden
+  li
+    color: rgb(98, 103, 111)
+    font-family: AvenirNextW1GL
+    font-size: 14px
+    float: left
+    &:after
+      content: "/" 
+      margin-left: 5px
+      margin-right: 5px
+    &:last-child:after
+      display: none
+    a
+      color: rgb(98, 103, 111)
+      font-family: AvenirNextW1GL
+      font-size: 14px
+      text-decoration: none
+    span
+      color: rgb(98, 103, 111)
+      font-family: AvenirNextW1GL
+      font-size: 14px
+
+
+.nom
+  overflow: hidden
+  ul    
+    li
+      float: left
+      &:nth-child(2n)
+        float: right
+      a
+        height: 27px        
+        box-sizing: border-box
+        width: 307px
+        display: block
+        text-align: center
+
+
+
+
+/*end of inner page*/
 
 
 

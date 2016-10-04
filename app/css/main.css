@@ -75,6 +75,9 @@ ul {
   font-family: AvenirNextW1GT;
   src: url(../fonts/AvenirNextW1G-Thin.otf); }
 
+h1, h2, h3 {
+  font-size: 40px; }
+
 .wrapper {
   width: 100%;
   overflow: hidden; }
@@ -753,6 +756,82 @@ ul {
     right: 20px;
     bottom: 0; }
 
+/*inner page*/
+.left-right {
+  overflow: hidden; }
+
+.left {
+  width: 198px;
+  float: left;
+  overflow: hidden; }
+
+.right {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 680px;
+  float: right;
+  overflow: hidden; }
+
+.component {
+  padding: 25px;
+  color: #282828;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: AvenirNextW1GL; }
+  .component p {
+    margin-bottom: 7px; }
+  .component h2 {
+    color: #62676f;
+    font-family: AvenirNextW1G;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px; }
+  .component a {
+    color: #4495d1;
+    text-decoration: underline; }
+
+.bread {
+  padding: 12px 15px 0 15px;
+  overflow: hidden; }
+  .bread li {
+    color: #62676f;
+    font-family: AvenirNextW1GL;
+    font-size: 14px;
+    float: left; }
+    .bread li:after {
+      content: "/";
+      margin-left: 5px;
+      margin-right: 5px; }
+    .bread li:last-child:after {
+      display: none; }
+    .bread li a {
+      color: #62676f;
+      font-family: AvenirNextW1GL;
+      font-size: 14px;
+      text-decoration: none; }
+    .bread li span {
+      color: #62676f;
+      font-family: AvenirNextW1GL;
+      font-size: 14px; }
+
+.nom {
+  overflow: hidden; }
+  .nom ul li {
+    float: left; }
+    .nom ul li:nth-child(2n) {
+      float: right; }
+    .nom ul li a {
+      height: 27px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 307px;
+      display: block;
+      text-align: center; }
+
+/*end of inner page*/
 /*input[type=submit]*/
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
