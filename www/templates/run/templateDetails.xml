@@ -33,6 +33,8 @@
 		<position>bot-mnu</position>
 		<position>top-mnu</position>
 		<position>festivals</position>
+		<position>about-home</position>
+		<position>best-photos</position>
 		</positions>
 	</files>
 </extension>

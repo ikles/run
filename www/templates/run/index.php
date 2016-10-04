@@ -19,7 +19,7 @@ $app = JFactory::getApplication();
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-1.12.0.min.js"></script>
+<!--script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-1.12.0.min.js"></script-->
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/common.js"></script>
 </head>
 <body>
@@ -36,228 +36,174 @@ $app = JFactory::getApplication();
 			<jdoc:include type="modules" name="white-block" style="mystyle" />				
 			<div class="main-content">						
 				<jdoc:include type="modules" name="top-mnu" style="mystyle" />			
-					<div class="festivals">
+				<div class="festivals">
 					<jdoc:include type="modules" name="festivals" style="mystyle" />
-						<div class="w900 fest">
-							<h3>Фестивали в ближайшее время</h3>
-							<div class="text-mod fest">
-								<ul>
-									<li>
-										<a href="#">
-											<span class="img-fest"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/fest1.jpg" alt=""></span>											
-											<span class="text-fest">
-												Москва <br>
-												<span>25 - 29 марта</span>											
-											</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<span class="img-fest"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/fest1.jpg" alt=""></span>											
-											<span class="text-fest">
-												Рязань <br>
-												<span>25 - 29 марта</span>											
-											</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<span class="img-fest"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/fest1.jpg" alt=""></span>											
-											<span class="text-fest">
-												Сочи <br>
-												<span>25 - 29 марта</span>											
-											</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<span class="img-fest"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/fest1.jpg" alt=""></span>											
-											<span class="text-fest">
-												Москва <br>
-												<span>25 - 29 марта</span>											
-											</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div><!--festivals-->
-					<div class="about-home w900">
-						<h3>О Центре «Образование и культура мира»</h3>
-						<div class="text-mod">
-							<div class="img-about">
-								<a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/unesco.png" alt=""></a>
-							</div>
-							<div class="text-about"><p>
-								Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве в 1997 году. Деятельность Центра (рег. свид. № 066.270 от 2 июля 1997 г.) началась с проекта «Учим и учимся миру», реализованного при поддержке Комитета общественных и межрегиональных связей, Мэрией г. Москвы и лично Швецовой Людмилой Ивановной.
-							</p>
-							<a href="#" class="about-more">Подробнее »</a>
-						</div>								
-					</div>
-				</div><!--about-home-->
-				<div class="best-photos">
-					<h3>Лучшие фотографии</h3>
-					<div class="text-mod">
-						<ul>
-							<li class="arr arrl"><a href="#"></a></li>
-							<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best1.jpg" alt=""></a></li>
-							<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best2.jpg" alt=""></a></li>
-							<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best3.jpg" alt=""></a></li>
-							<li class="arr arrr"><a href="#"></a></li>
-						</ul>
-						<a href="#" class="all-photos">Все фото»</a>
-					</div>
-				</div><!--best-photos-->
-				<div class="polog w900">
-					<h3>ПОЛОЖЕНИЯ И Номинации фестиваля-конкурса</h3>
-					<div class="text-mod">
-						<ul>
-							<li>
-								<a href="#">
-									<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/hor.png" alt=""></span>
-									<span class="txt-polog">
-										<span class="head-polog">хореография</span>
-										<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/voc.png" alt=""></span>
-									<span class="txt-polog">
-										<span class="head-polog">хореография</span>
-										<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/instr.png" alt=""></span>
-									<span class="txt-polog">
-										<span class="head-polog">хореография</span>
-										<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/teatr.png" alt=""></span>
-									<span class="txt-polog">
-										<span class="head-polog">хореография</span>
-										<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/cirk.png" alt=""></span>
-									<span class="txt-polog">
-										<span class="head-polog">хореография</span>
-										<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/hory.png" alt=""></span>
-									<span class="txt-polog">
-										<span class="head-polog">хореография</span>
-										<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/rech.png" alt=""></span>
-									<span class="txt-polog">
-										<span class="head-polog">хореография</span>
-										<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/izo.png" alt=""></span>
-									<span class="txt-polog">
-										<span class="head-polog">хореография</span>
-										<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
-									</span>
-								</a>
-							</li>
-						</ul>
-					</div><!--text-mod-->
-					<a href="#" class="all-nom">Все номинации»</a>
-				</div><!--polog -->
-				<div class="reviews w900">
-					<h3>Отзывы</h3>
-					<div class="text-mod">
-						<ul>
-							<li>
-								<div class="img-date-reviews">
-									<span class="img-reviews"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/review1.jpg" alt=""></span>
-									<span class="date-reviews">27.02.2016</span>
-								</div>
-								<div class="text-reviews">
-									<h4>Павел Брюн</h4>
-									<p>Здравствуйте! Фестиваль прошел, по мнению участников и родителей студии "Премиум", на отлично! Хороший отель, вкусная еда, доброжелательное отношение персонала к детскому коллективу.</p>
-									<a href="#" class="more-reviews">Еще отзывы»</a>
-								</div>
-							</li>
-							<li>
-								<div class="img-date-reviews">
-									<span class="img-reviews"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/review1.jpg" alt=""></span>
-									<span class="date-reviews">27.02.2016</span>
-								</div>
-								<div class="text-reviews">
-									<h4>Павел Брюн</h4>
-									<p>Здравствуйте! Фестиваль прошел, по мнению участников и родителей студии "Премиум", на отлично! Хороший отель, вкусная еда, доброжелательное отношение персонала к детскому коллективу.</p>
-									<a href="#" class="more-reviews">Еще отзывы»</a>
-								</div>
-							</li>
-							<li>
-								<div class="img-date-reviews">
-									<span class="img-reviews"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/review1.jpg" alt=""></span>
-									<span class="date-reviews">27.02.2016</span>
-								</div>
-								<div class="text-reviews">
-									<h4>Павел Брюн</h4>
-									<p>Здравствуйте! Фестиваль прошел, по мнению участников и родителей студии "Премиум", на отлично! Хороший отель, вкусная еда, доброжелательное отношение персонала к детскому коллективу.</p>
-									<a href="#" class="more-reviews">Еще отзывы»</a>
-								</div>
-							</li>
-						</ul>
-					</div>	
-				</div><!--reviews-->
-				<div class="support w900">
-					<h3>При поддержке</h3>
-					<div class="text-mod">
-						<ul>
-							<li class="arr- arr-l"><a href="#"></a></li>
-							<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/support1.jpg" alt=""></a></li>
-							<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/support2.jpg" alt=""></a></li>
-							<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/support3.jpg" alt=""></a></li>
-							<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/support4.jpg" alt=""></a></li>
-							<li class="arr- arr-r"><a href="#"></a></li>
-						</ul>
-					</div>
-				</div><!--support-->
-				<jdoc:include type="modules" name="bot-mnu" style="mystyle" />				
-				<div class="footer">
-					<div class="w900">
-						<div class="slogan-phones-mail-footer">
-							<jdoc:include type="modules" name="slogan-footer" style="mystyle" />
-							<jdoc:include type="modules" name="phones-footer" style="mystyle" />								
-							<jdoc:include type="modules" name="mail-footer" style="mystyle" />							
-						</div><!--slogan-phones-mail-footer-->								
-						<div class="copy">
-							<jdoc:include type="modules" name="copy" style="mystyle" />									
-							<jdoc:include type="modules" name="counter" style="mystyle" />													
-						</div>
-					</div>	
+				</div><!--festivals-->
+				<jdoc:include type="modules" name="about-home" style="mystyle" />
+			<jdoc:include type="modules" name="best-photos" style="mystyle" />
+			<div class="best-photos">
+				<h3>Лучшие фотографии</h3>
+				<div class="text-mod">
+					<ul>
+						<li class="arr arrl"><a href="#"></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best1.jpg" alt=""></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best2.jpg" alt=""></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/best3.jpg" alt=""></a></li>
+						<li class="arr arrr"><a href="#"></a></li>
+					</ul>
+					<a href="#" class="all-photos">Все фото»</a>
 				</div>
-			</div><!--main-content-->					
-		</div>
-	</div>	
+			</div><!--best-photos-->
+			<div class="polog w900">
+				<h3>ПОЛОЖЕНИЯ И Номинации фестиваля-конкурса</h3>
+				<div class="text-mod">
+					<ul>
+						<li>
+							<a href="#">
+								<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/hor.png" alt=""></span>
+								<span class="txt-polog">
+									<span class="head-polog">хореография</span>
+									<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/voc.png" alt=""></span>
+								<span class="txt-polog">
+									<span class="head-polog">хореография</span>
+									<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/instr.png" alt=""></span>
+								<span class="txt-polog">
+									<span class="head-polog">хореография</span>
+									<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/teatr.png" alt=""></span>
+								<span class="txt-polog">
+									<span class="head-polog">хореография</span>
+									<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/cirk.png" alt=""></span>
+								<span class="txt-polog">
+									<span class="head-polog">хореография</span>
+									<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/hory.png" alt=""></span>
+								<span class="txt-polog">
+									<span class="head-polog">хореография</span>
+									<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/rech.png" alt=""></span>
+								<span class="txt-polog">
+									<span class="head-polog">хореография</span>
+									<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="img-polog"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/izo.png" alt=""></span>
+								<span class="txt-polog">
+									<span class="head-polog">хореография</span>
+									<span class="text-polog">Некоммерческое Образовательное Учреждение Центр «Образование и культура мира» основано в Москве </span>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div><!--text-mod-->
+				<a href="#" class="all-nom">Все номинации»</a>
+			</div><!--polog -->
+			<div class="reviews w900">
+				<h3>Отзывы</h3>
+				<div class="text-mod">
+					<ul>
+						<li>
+							<div class="img-date-reviews">
+								<span class="img-reviews"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/review1.jpg" alt=""></span>
+								<span class="date-reviews">27.02.2016</span>
+							</div>
+							<div class="text-reviews">
+								<h4>Павел Брюн</h4>
+								<p>Здравствуйте! Фестиваль прошел, по мнению участников и родителей студии "Премиум", на отлично! Хороший отель, вкусная еда, доброжелательное отношение персонала к детскому коллективу.</p>
+								<a href="#" class="more-reviews">Еще отзывы»</a>
+							</div>
+						</li>
+						<li>
+							<div class="img-date-reviews">
+								<span class="img-reviews"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/review1.jpg" alt=""></span>
+								<span class="date-reviews">27.02.2016</span>
+							</div>
+							<div class="text-reviews">
+								<h4>Павел Брюн</h4>
+								<p>Здравствуйте! Фестиваль прошел, по мнению участников и родителей студии "Премиум", на отлично! Хороший отель, вкусная еда, доброжелательное отношение персонала к детскому коллективу.</p>
+								<a href="#" class="more-reviews">Еще отзывы»</a>
+							</div>
+						</li>
+						<li>
+							<div class="img-date-reviews">
+								<span class="img-reviews"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/review1.jpg" alt=""></span>
+								<span class="date-reviews">27.02.2016</span>
+							</div>
+							<div class="text-reviews">
+								<h4>Павел Брюн</h4>
+								<p>Здравствуйте! Фестиваль прошел, по мнению участников и родителей студии "Премиум", на отлично! Хороший отель, вкусная еда, доброжелательное отношение персонала к детскому коллективу.</p>
+								<a href="#" class="more-reviews">Еще отзывы»</a>
+							</div>
+						</li>
+					</ul>
+				</div>	
+			</div><!--reviews-->
+			<div class="support w900">
+				<h3>При поддержке</h3>
+				<div class="text-mod">
+					<ul>
+						<li class="arr- arr-l"><a href="#"></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/support1.jpg" alt=""></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/support2.jpg" alt=""></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/support3.jpg" alt=""></a></li>
+						<li><a href="#"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/support4.jpg" alt=""></a></li>
+						<li class="arr- arr-r"><a href="#"></a></li>
+					</ul>
+				</div>
+			</div><!--support-->
+			<jdoc:include type="modules" name="bot-mnu" style="mystyle" />				
+			<div class="footer">
+				<div class="w900">
+					<div class="slogan-phones-mail-footer">
+						<jdoc:include type="modules" name="slogan-footer" style="mystyle" />
+						<jdoc:include type="modules" name="phones-footer" style="mystyle" />								
+						<jdoc:include type="modules" name="mail-footer" style="mystyle" />							
+					</div><!--slogan-phones-mail-footer-->								
+					<div class="copy">
+						<jdoc:include type="modules" name="copy" style="mystyle" />									
+						<jdoc:include type="modules" name="counter" style="mystyle" />													
+					</div>
+				</div>	
+			</div>
+		</div><!--main-content-->					
+	</div>
+</div>	
 </div>
 </body>
 </html>
