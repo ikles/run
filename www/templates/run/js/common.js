@@ -15,4 +15,10 @@ $(function() {
 			}
 		}
 	});
+
+
+	
+
+	$('.all-photos').parent().remove();
+
 }); //ready
