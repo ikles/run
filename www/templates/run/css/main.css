@@ -423,7 +423,31 @@ ul {
     .best-photos ul li {
       display: inline-block;
       margin: 0 6px; }
-      .best-photos ul li a {
+
+
+.owl-stage {
+  > div
+    float: left;
+    }
+
+
+.owl-nav div {
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 232px;
+  font-size: 0;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+  right: 0;
+}
+
+      .best-photos a {
         border: 5px solid #eff4f7;
         overflow: hidden;
         width: 261px;
@@ -432,12 +456,16 @@ ul {
         font-size: 0;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box; }
-        .best-photos ul li a img {
+        .best-photos a img {
           width: 100%;
           height: auto; }
   .best-photos .text-mod {
     width: 900px;
-    height: 240px;
+    padding: 0 40px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    /*height: 240px;*/
     margin: auto;
     overflow: hidden; }
     .best-photos .text-mod .arr {
@@ -451,11 +479,11 @@ ul {
   width: 800px;
 }
 
-.arrr {
+.arrr, .owl-next {
   background: url("../img/arrr.png") no-repeat 0 0;
   float: right; }
 
-.arrl {
+.arrl, .owl-prev {
   background: url("../img/arrl.png") no-repeat 0 0;
   float: left; }
 
@@ -994,6 +1022,7 @@ ul {
     font-size: 11px; }
 
 /*end of inner page*/
+
+
+
 /*input[type=submit]*/
-
-
