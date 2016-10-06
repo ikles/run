@@ -13,11 +13,25 @@ $app = JFactory::getApplication();
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/owl.carousel.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/jquery.fancybox.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/main.css" type="text/css" />
-	<!--script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-1.12.0.min.js"></script-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-1.12.0.min.js"></script>
+	<!--script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-1.3.2.min.js"></script-->
+	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.easing.1.3.js"></script>
 	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/owl.carousel.js"></script>
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.fancybox-1.2.1.pack.js"></script>
 	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/common.js"></script>
+
+
+
+
+
+
+	
+
+
+
 </head>
 <body>
 	<div class="wrapper">
@@ -37,7 +51,47 @@ $app = JFactory::getApplication();
 					<jdoc:include type="modules" name="festivals" style="mystyle" />
 				</div><!--festivals-->
 				<jdoc:include type="modules" name="about-home" style="mystyle" />			
-				<jdoc:include type="modules" name="best-photos" style="mystyle" />					
+				<jdoc:include type="modules" name="best-photos" style="mystyle" />	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="gallery" rel="group" href="/images/best1.jpg"><img src="/images/best1.jpg" alt=""></a>
+<a class="gallery" rel="group" href="/images/best1.jpg"><img src="/images/best1.jpg" alt=""></a>
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				<div class="polog w900">
 					<h3>ПОЛОЖЕНИЯ И Номинации фестиваля-конкурса</h3>
 					<div class="text-mod">
