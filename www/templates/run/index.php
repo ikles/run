@@ -47,6 +47,7 @@ $app = JFactory::getApplication();
 					</div><!--right-->
 				</div><!--left-right-->	
 				<jdoc:include type="modules" name="top-mnu" style="mystyle" />							
+				<jdoc:include type="modules" name="grafic" style="mystyle" />
 				<div class="festivals">
 					<jdoc:include type="modules" name="festivals" style="mystyle" />
 				</div><!--festivals-->

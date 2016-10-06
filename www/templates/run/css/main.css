@@ -220,56 +220,56 @@ ul {
       display: block;
       width: 100%;}
   .top-mnu li:first-child {
-    border-color: #2b83bc; }
+    border-color: #2b83bc !important; }
     .top-mnu li:first-child a {
       background-image: url("../img/graf.png");
       color: #2b83bc; }
-      .top-mnu li:first-child a:hover {
+      .top-mnu li:first-child a:hover, .top-mnu li.active:nth-child(1) a {
         background-image: url("../img/graf-h.png");
         color: #FFF;
         background-color: #2b83bc; }
   .top-mnu li:nth-child(2) {
-    border-color: #5abb49; }
+    border-color: #5abb49 !important; }
     .top-mnu li:nth-child(2) a {
       background-image: url("../img/zayav.png");
       color: #5abb49; }
-      .top-mnu li:nth-child(2) a:hover {
+      .top-mnu li:nth-child(2) a:hover, .top-mnu li.active:nth-child(2) a {
         background-image: url("../img/zayav-h.png");
         color: #FFF;
         background-color: #5abb49; }
   .top-mnu li:nth-child(3) {
-    border-color: #d48625; }
+    border-color: #d48625 !important; }
     .top-mnu li:nth-child(3) a {
       background-image: url("../img/zaoch.png");
       color: #d48625; }
-      .top-mnu li:nth-child(3) a:hover {
+      .top-mnu li:nth-child(3) a:hover, .top-mnu li.active:nth-child(3) a{
         background-image: url("../img/zaoch-h.png");
         color: #FFF;
         background-color: #d48625; }
   .top-mnu li:nth-child(4) {
-    border-color: #f34d4a; }
+    border-color: #f34d4a !important; }
     .top-mnu li:nth-child(4) a {
       background-image: url("../img/olimp.png");
       color: #f34d4a; }
-      .top-mnu li:nth-child(4) a:hover {
+      .top-mnu li:nth-child(4) a:hover, .top-mnu li.active:nth-child(4) a {
         background-image: url("../img/olimp-h.png");
         color: #FFF;
         background-color: #f34d4a; }
   .top-mnu li:nth-child(5) {
-    border-color: #62676f; }
+    border-color: #62676f !important; }
     .top-mnu li:nth-child(5) a {
       background-image: url("../img/onas.png");
       color: #62676f; }
-      .top-mnu li:nth-child(5) a:hover {
+      .top-mnu li:nth-child(5) a:hover, .top-mnu li.active:nth-child(5) > a {
         background-image: url("../img/onas-h.png");
         color: #FFF;
         background-color: #62676f; }
   .top-mnu li:nth-child(6) {
-    border-color: #cb366a; }
+    border-color: #cb366a !important; }
     .top-mnu li:nth-child(6) a {
       background-image: url("../img/gal.png");
       color: #cb366a; }
-      .top-mnu li:nth-child(6) a:hover {
+      .top-mnu li:nth-child(6) a:hover, .top-mnu li.active:nth-child(6) a {
         background-image: url("../img/gal-h.png");
         color: #FFF;
         background-color: #cb366a; }
@@ -910,7 +910,8 @@ div.all-nom {
         padding-left: 0;
         margin-left: 58px;
         display: list-item;
-        border: none; }
+        border: none; 
+        width: auto; }
         .top-mnu.left-mnu li ul li:hover {
           list-style: disc outside; }
       .top-mnu.left-mnu li ul a {
@@ -951,7 +952,7 @@ div.all-nom {
     background-position: left 10px center;
     padding: 6px;
     padding-left: 60px; }
-    .top-mnu.left-mnu a:hover {
+    .top-mnu.left-mnu a:hover{
       border-color: inherit; }
     .top-mnu.left-mnu a span {
       text-align: left; }
@@ -996,6 +997,14 @@ div.all-nom {
       content: "/";
       margin-left: 5px;
       margin-right: 5px; }
+
+.nom {
+  margin-top: 20px;
+}
+
+.nom h3 {
+  margin-bottom: 20px;
+}
 
 .divider {
   display: none;
