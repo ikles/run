@@ -37,6 +37,8 @@
 		<position>best-photos</position>
 		<position>link-all-photos</position>
 		<position>polog</position>
+		<position>reviews</position>
+		<position>support</position>
 		</positions>
 	</files>
 </extension>

@@ -446,6 +446,30 @@ ul {
     float: left;
     }
 
+.support.w900{
+    width: 800px !important;
+}
+
+.support .owl-item {
+  
+}
+
+.support .owl-item img {
+  max-width: 100% !important;
+  height: auto !important;  
+  width: auto !important;
+  margin: auto !important;  
+}
+
+.support  .owl-stage {
+  display: flex !important;
+  -webkit-align-items: center !important;
+          align-items: center !important;
+}
+
+.support .owl-item {  
+  text-align: center !important;
+}
 
 .owl-nav div {
   position: absolute;
@@ -700,6 +724,32 @@ ul {
         .support .text-mod ul li a img {
           text-align: center;
           margin: auto; }
+    
+    .support .owl-prev {
+      float: left;
+      width: 11px;
+      background: url("../img/arr-l.png") no-repeat left center;
+      margin: 0;
+      height: 99px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .support  .owl-next {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 11px;
+      background: url("../img/arr-r.png") no-repeat left center;
+      margin: 0;
+      height: 99px;
+    }
+
+.support .text-mod {
+  padding: 0 25px !important;
+}
+
     .support .text-mod ul li.arr-r {
       float: right;
       width: 11px;
