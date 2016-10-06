@@ -31,34 +31,73 @@ $app = JFactory::getApplication();
 		<div class="content">			
 			<a href="/" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/logo.png" alt=""></a>
 			<jdoc:include type="modules" name="white-block" style="mystyle" />				
-			<div class="main-content">						
-				<jdoc:include type="modules" name="top-mnu" style="mystyle" />			
-				<div class="festivals">
-					<jdoc:include type="modules" name="festivals" style="mystyle" />
-				</div><!--festivals-->
-				<jdoc:include type="modules" name="about-home" style="mystyle" />			
-				<jdoc:include type="modules" name="best-photos" style="mystyle" />	
-				<jdoc:include type="modules" name="link-all-photos" style="mystyle" />	
-				<jdoc:include type="modules" name="polog" style="mystyle" />	
-				<jdoc:include type="modules" name="reviews" style="mystyle" />	
-				<jdoc:include type="modules" name="support" style="mystyle" />	
-				<jdoc:include type="modules" name="bot-mnu" style="mystyle" />				
-				<div class="footer">
-					<div class="w900">
-						<div class="slogan-phones-mail-footer">
-							<jdoc:include type="modules" name="slogan-footer" style="mystyle" />
-							<jdoc:include type="modules" name="phones-footer" style="mystyle" />								
-							<jdoc:include type="modules" name="mail-footer" style="mystyle" />							
-						</div><!--slogan-phones-mail-footer-->								
-						<div class="copy">
-							<jdoc:include type="modules" name="copy" style="mystyle" />									
-							<jdoc:include type="modules" name="counter" style="mystyle" />													
-						</div>
-					</div>	
-				</div>
-			</div><!--main-content-->					
-		</div>
-	</div>	
-</div>
+			<div class="main-content">									
+				<div class="left-right w900">
+					<div class="left">
+						<div class="top-mnu left-mnu">
+							<div class="">
+								<ul>
+									<li class="graf">
+										<a href="#"><span>График фестивалей</span></a></li>
+										<li class="zayav"><a href="#"><span>Заявка на участие</span></a></li>
+										<li class="zaoch"><a href="#"><span>Заочный конкурс</span></a></li>
+										<li class="olimp"><a href="#"><span>Олимпиада</span></a></li>
+										<li class="onas">
+											<a href="#"><span>О нас</span></a>
+											<ul>
+												<li><a href="#">События</a></li>
+												<li class="active"><a href="#">Жюри</a></li>
+												<li><a href="#">Победители</a></li>
+												<li><a href="#">О нас</a></li>
+											</ul>
+										</li>
+										<li class="gal"><a href="#"><span>Галерея</span></a></li>
+									</ul>
+								</div>
+							</div><!--left top-mnu-->
+						</div><!--left-->
+						<div class="right">
+						<jdoc:include type="modules" name="bread1" style="mystyle" />							
+						<div class="bread">
+								<div class="text-mod">
+									<ul>
+										<li><a href="#">Главная</a></li><li><span>Внутренняя</span></li>
+									</ul>
+								</div>
+							</div>
+							<div class="component">
+								<jdoc:include type="component" style="xhtml" />
+							</div><!--component-->								
+						</div><!--right-->
+					</div><!--left-right-->	
+					<jdoc:include type="modules" name="top-mnu" style="mystyle" />							
+					<div class="festivals">
+						<jdoc:include type="modules" name="festivals" style="mystyle" />
+					</div><!--festivals-->
+					<jdoc:include type="modules" name="about-home" style="mystyle" />			
+					<jdoc:include type="modules" name="best-photos" style="mystyle" />	
+					<jdoc:include type="modules" name="link-all-photos" style="mystyle" />	
+					<jdoc:include type="modules" name="polog" style="mystyle" />
+					<jdoc:include type="modules" name="all-nom" style="mystyle" />				
+					<jdoc:include type="modules" name="reviews" style="mystyle" />	
+					<jdoc:include type="modules" name="support" style="mystyle" />	
+					<jdoc:include type="modules" name="bot-mnu" style="mystyle" />				
+					<div class="footer">
+						<div class="w900">
+							<div class="slogan-phones-mail-footer">
+								<jdoc:include type="modules" name="slogan-footer" style="mystyle" />
+								<jdoc:include type="modules" name="phones-footer" style="mystyle" />								
+								<jdoc:include type="modules" name="mail-footer" style="mystyle" />							
+							</div><!--slogan-phones-mail-footer-->								
+							<div class="copy">
+								<jdoc:include type="modules" name="copy" style="mystyle" />									
+								<jdoc:include type="modules" name="counter" style="mystyle" />													
+							</div>
+						</div>	
+					</div>
+				</div><!--main-content-->					
+			</div>
+		</div>	
+	</div>
 </body>
 </html>

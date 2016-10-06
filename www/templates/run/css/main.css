@@ -487,7 +487,7 @@ ul {
   right: 0;
 }
 
-      .best-photos a {
+      .best-photos a, .best-photos img {
         border: 5px solid #eff4f7;
         overflow: hidden;
         width: 261px;
@@ -531,7 +531,7 @@ ul {
   margin-top: 89px; }
 
 .polog {
-  margin-bottom: 60px;
+  margin-bottom: 0;
   overflow: hidden; }
   .polog li {
     float: left;
@@ -745,6 +745,16 @@ ul {
       margin: 0;
       height: 99px;
     }
+
+div.all-nom {
+  width: 100%;
+  overflow: hidden !important;
+  margin-bottom: 60px;
+  }
+  .all-nom .text-mod {
+  margin: auto !important; 
+  width: 900px !important; 
+}
 
 .support .text-mod {
   padding: 0 25px !important;

@@ -39,6 +39,8 @@
 		<position>polog</position>
 		<position>reviews</position>
 		<position>support</position>
+		<position>all-nom</position>
+		<position>bread1</position>
 		</positions>
 	</files>
 </extension>
