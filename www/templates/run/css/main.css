@@ -75,11 +75,23 @@ ul {
   font-family: AvenirNextW1GT;
   src: url(../fonts/AvenirNextW1G-Thin.otf); }
 
+i, em {
+  font-style: italic;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
 .wrapper {
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 53px; }
 
 .top {
+  z-index: 100;
+  position: fixed;
+  top: 0;
   height: 53px;
   width: 100%;
   background-color: #40518C;
@@ -133,6 +145,11 @@ ul {
   .top-phones span {
     font-family: AvenirNextW1GB;
     font-size: 15px; }
+  
+  .top-phones a {
+    color: #FFF;
+    text-decoration: none;
+  }
 
 .content {
   width: 100%;
@@ -155,7 +172,13 @@ ul {
   padding: 20px;
   -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
-           box-sizing: border-box; }
+           box-sizing: border-box;
+   }
+
+.white {
+  min-height: 197px;
+  margin-bottom: 42px; 
+}
 
 .main-content {
   width: 100%; }
@@ -487,7 +510,7 @@ ul {
   right: 0;
 }
 
-      .best-photos a, .best-photos img {
+      .best-photos a {
         border: 5px solid #eff4f7;
         overflow: hidden;
         width: 261px;
@@ -758,6 +781,9 @@ div.all-nom {
 
 .support .text-mod {
   padding: 0 25px !important;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
     .support .text-mod ul li.arr-r {
@@ -973,7 +999,7 @@ div.all-nom {
   font-family: AvenirNextW1GL; }
   .component p {
     margin-bottom: 7px; }
-  .component h2 {
+.component h1, .component h2 {
     color: #62676f;
     font-family: AvenirNextW1G;
     font-size: 40px;
@@ -981,6 +1007,11 @@ div.all-nom {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px; }
+
+.component h3 {
+  font-size: 35px;
+}
+
   .component a {
     color: #4495d1;
     text-decoration: underline; }
@@ -1111,7 +1142,60 @@ div.all-nom {
     color: #FFF;
     font-size: 11px; }
 
-/*end of inner page*/
+
+.scrollTop {
+  display: block;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  bottom: 80px;
+  right: 80.5px;
+  background-color: #000;
+  opacity: 0.8;
+  font-size: 20px;
+  line-height: 2;
+  font-family: ProximaNova;
+  color: #FFF;
+  text-decoration: none; }
+
+.zoom {
+  position: fixed;
+  z-index: 102;
+  top: 10%;
+  padding: 10px;
+  text-align: center;
+  background-color: #FFF;
+  left: -webkit-calc(50% - 185px);
+  left: calc(50% - 185px);
+  display: none; }
+  .zoom img {
+    width: 350px;
+    height: auto; }
+
+.closer {
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  background: url("../img/fancy_close.png") no-repeat 0 0;
+  z-index: 102;
+  display: none; }
+
+.overka {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: 101;
+  display: none; }
+
+.dblock {
+  display: block !important; }
 
 
 

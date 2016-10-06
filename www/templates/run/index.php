@@ -30,7 +30,9 @@ $app = JFactory::getApplication();
 		</div>
 		<div class="content">			
 			<a href="/" class="logo"><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/img/logo.png" alt=""></a>
-			<jdoc:include type="modules" name="white-block" style="mystyle" />				
+			<div class="white">
+				<jdoc:include type="modules" name="white-block" style="mystyle" />				
+			</div>
 			<div class="main-content">									
 				<div class="left-right w900">
 					<div class="left">
@@ -76,5 +78,7 @@ $app = JFactory::getApplication();
 		</div>
 	</div>	
 </div>
+<div class="zoom"><a href="/" class="closer"></a></div>
+<div class="overka"></div>
 </body>
 </html>
