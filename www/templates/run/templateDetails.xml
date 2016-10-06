@@ -41,6 +41,8 @@
 		<position>support</position>
 		<position>all-nom</position>
 		<position>bread1</position>
+		<position>nom1</position>		
+		<position>left-mnu</position>		
 		</positions>
 	</files>
 </extension>

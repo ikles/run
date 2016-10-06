@@ -992,10 +992,15 @@ div.all-nom {
     font-family: AvenirNextW1GL;
     font-size: 14px;
     float: left; }
-    .bread li:after {
+    .bread li:after  {
       content: "/";
       margin-left: 5px;
       margin-right: 5px; }
+
+.divider {
+  display: none;
+}
+
     .bread li:last-child:after {
       display: none; }
     .bread li a {
