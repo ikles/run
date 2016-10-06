@@ -35,6 +35,8 @@
 		<position>festivals</position>
 		<position>about-home</position>
 		<position>best-photos</position>
+		<position>link-all-photos</position>
+		<position>polog</position>
 		</positions>
 	</files>
 </extension>
